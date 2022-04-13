@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
+    <title>Pablo Cardoso</title>
+    <link href="/src/output.css" rel="stylesheet" />
+    <link href="/src/temp.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="src/assets/abs_open_logo.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- nav bar sm lg -->
+    <nav
+      class="py-1 px-4 sm:py-6 sm:px-4 lg:py-6 lg:px-10 lg:text-lg bg-periwinkle flex items-center justify-between"
+    >
+      <div>
+        <!-- <h1 class="text-purple-haze">Pablo Cardoso</h1> -->
+        <img src="src/assets/abs_open_logo.png" class="h-5 sm:h-8" />
+      </div>
+      <ul class="hidden sm:flex justify-end items-center">
+        <li>
+          <a href="#projects" class="text-purple-haze p-2 lg:p-10">Projects</a>
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
+            >Hire Me</a
+          >
+        </li>
+      </ul>
+      <!-- burger menu sm -->
+      <div class="sm:hidden">
+        <button class="navbar-burger flex items-center text-purple-haze p-3">
+          <svg
+            class="block h-4 w-4 fill-current"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Mobile menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav
+          class="fixed top-0 right-0 bottom-0 flex flex-col h-1/2 w-3/6 max-w-sm py-6 px-6 bg-periwinkle border-r overflow-y-auto"
+        >
+          <div class="flex items-center mb-8">
+            <button class="navbar-close">
+              <svg
+                class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div>
+            <ul>
+              <li class="mb-1 justify-center">
+                <a
+                  class="block p-4 text-sm font-semibold text-purple-haze hover:bg-blue-50 hover:text-gradient rounded"
+                  href="#projects"
+                  >Projects</a
+                >
+              </li>
+              <li class="mb-1 justify-center">
+                <a
+                  class="block p-4 text-sm font-semibold text-purple-haze hover:bg-blue-50 hover:text-gradient rounded"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <!-- hero -->
+    <header class="bg-purple-haze">
+      <h1
+        class="pt-5 md:p-20 font-bold text-4xl sm:text-5xl lg:text-6xl text-center"
+      >
+        Hello, <span class="text-gradient">World!</span>
+      </h1>
+      <div class="md:flex mx-auto items-center py-10">
+        <!-- left -->
+        <div class="md:flex-1">
+          <div
+            class="wrapper justify-center flex text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
+          >
+            <ul class="dynamic-greet">
+              <li><span>I'm Pablo, a</span></li>
+              <li><span>I'm Pablo, an</span></li>
+              <li><span>I'm Pablo, a</span></li>
+              <li><span>I'm Pablo, a</span></li>
+            </ul>
+            <ul class="dynamic-txts">
+              <li><span>nerd.</span></li>
+              <li><span class="ml-2">explorer.</span></li>
+              <li><span>tinkerer.</span></li>
+              <li><span>human.</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="py-10 md:flex-1">
+          <img
+            class="mx-auto animate-spin-slow w-1/2 sm:h-1/4"
+            src="src/assets/retro.png"
+          />
+        </div>
+      </div>
+    </header>
+
+    <!-- projects -->
+    <section class="h-auto bg-lavender-web text-center" id="projects">
+      <h2
+        class="text-gradient py-10 text-3xl sm:text-4xl lg:text-5xl font-bold"
+      >
+        Projects
+      </h2>
+      <!-- Chatapp -->
+      <div class="py-10 lg:text-lg">
+        <p class="w-3/4 md:w-1/2 mx-auto">
+          <span class="Strong text-gradient">Chatapp:</span> built with
+          <a
+            href="https://flutter.dev/"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://flutter.dev/"
+          >
+            Flutter</a
+          >, a cross platform framework for Android, iOS, web, and desktop, with
+          one code base. While utilizing the
+          <a
+            href="https://firebase.google.com/"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://firebase.google.com/"
+            >Firebase</a
+          >
+          database services, Firestore as the database, and Storage for user
+          images. Click for a
+          <a
+            href="https://chatapp-ec133.web.app/"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://chatapp-ec133.web.app/"
+            >Web Build</a
+          >
+          of Chatapp.
+        </p>
+      </div>
+      <!-- Chatapp carousel -->
+      <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
+        Swipe Through
+      </h3>
+
+      <div class="card-container h-96 mx-auto">
+        <div class="card-carousel">
+          <div class="card" id="1">
+            <img class="h-80" src="src/assets/signin.png" />
+          </div>
+          <div class="card" id="2">
+            <img class="h-80" src="src/assets/profile.png" />
+          </div>
+          <div class="card" id="3">
+            <img class="h-80" src="src/assets/deleteprofile.png" />
+          </div>
+          <div class="card" id="4">
+            <img class="h-80" src="src/assets/chatrooms.png" />
+          </div>
+          <div class="card" id="5">
+            <img class="h-80" src="src/assets/chat.png" />
+          </div>
+          <div class="card" id="6">
+            <img class="h-80" src="src/assets/chatOpenKeyboard.png" />
+          </div>
+        </div>
+        <a href="#" class="visuallyhidden card-controller w-1/2"
+          >Carousel controller</a
+        >
+      </div>
+    </section>
+
+    <!--  -->
+    <!-- <button onclick="myFunction()">Click Me</button> -->
+    <!-- <button onclick="submitted=true">Click Me</button>
+          <script type="text/javascript">var submitted = false; </script>
+          <iframe
+          name="hidden_iframe"
+          id="hidden_iframe"
+          style="display: none"
+          onload="if(submitted){window.location='src/thankyou.html';}"
+          ></iframe> -->
+    <!-- hire me -->
+    <section class="md:flex bg-periwinkle p-10">
+      <div class="md:flex-1 my-auto">
+        <img
+          class="mx-auto animate-spin-slow w-1/2 sm:h-1/4"
+          src="src/assets/pc_300.png"
+        />
+      </div>
+      <div id="myDIV" class="mx-auto md:flex-1">
+        <div class="max-w-sm mx-auto">
+          <h2
+            class="text-4xl sm:text-5xl lg:text-6xl text-purple-haze text-gradient text-center py-10"
+          >
+            Hire Me
+          </h2>
+          <p class="text-purple-haze pb-10 lg:text-lg">
+            Feel free to contact me at any time, through any method below.
+          </p>
+          <a href="mailto:cardosopab@gmail.com" class="underline text-light-red"
+            >cardosopab@gmail.com</a
+          >
+          <div class="my-6 w-6">
+            <!-- Github -->
+            <a href="https://github.com/cardosopab" target="_blank">
+              <svg
+                class="fill-purple-200"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="px-2 gap-6 md:gap-32">
+            <form>
+              <div>
+                <label class="text-purple-haze block mb-6 font-bold"
+                  >Name</label
+                >
+                <input
+                  class="w-full border bg-purple-haze p-4"
+                  name="entry.2005620554"
+                />
+              </div>
+              <div>
+                <label class="text-purple-haze block my-6 font-bold"
+                  >Email</label
+                >
+                <input
+                  class="w-full border bg-purple-haze p-4"
+                  name="entry.1045781291"
+                />
+              </div>
+              <div>
+                <label class="text-purple-haze block my-6 font-bold"
+                  >Message</label
+                >
+                <textarea
+                  class="w-full border bg-purple-haze p-4"
+                  name="entry.839337160"
+                ></textarea>
+              </div>
+              <div class="py-4">
+                <button
+                  class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
+                >
+                  Send it!
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="./src/index.js"></script>
+  </body>
+</html>

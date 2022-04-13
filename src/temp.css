@@ -1,0 +1,317 @@
+
+/* carousel */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: system-ui;
+  background: #3d76d9;
+} */
+
+/* .visuallyhidden {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  opacity: 0;
+  
+} */
+
+/* h1 {
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+} */
+
+/* .card-container {
+  width: 80%;
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 2em;
+  background: rgba(0,0,0,.1)
+}
+
+.card-carousel {
+  --card-width: 80%;
+  --card-max-width: 280px;
+  --card-height: 350px;
+  --carousel-min-width: 600px;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  height: var(--card-height);
+  min-width: var(--carousel-min-width);
+  transition: filter .3s ease;
+}
+
+@media screen and (max-width: 640px) {
+  .card-carousel {
+    margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+  }
+}
+
+.card-carousel.smooth-return {
+  transition: all .1s ease; */
+  /* width: 50%; */
+/* } */
+
+/* .card-carousel .card { */
+  /* background: rgb(30,58,138,1); */
+  /* width: var(--card-width);
+  max-width: var(--card-max-width);
+  text-align: center; */
+  /* padding: 1em; */
+  /* min-width: 250px;
+  height: var(--card-height);
+  position: absolute;
+  margin: 0 auto; */
+  /* color: rgba(0,0,0,.5); */
+  /* transition: inherit; */
+  /* -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 1em; */
+  /* filter: brightness(.9); */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* .card.highlight {
+  filter: brightness(1)
+} */
+
+/* Typewriting */
+.wrapper{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+}
+
+.wrapper .dynamic-greet{
+  /* font-size: 2rem;
+  font-weight: 400; */
+}
+.wrapper .dynamic-txts{
+  height: 6rem;
+  line-height: 6rem;
+  overflow: hidden;
+} 
+
+ .wrapper .dynamic-greet{
+  height: 6rem;
+  line-height: 6rem;
+  overflow: hidden;
+}
+
+.dynamic-txts li{
+  list-style: none;
+  color: #FC6D6D;
+  /* font-size: 2rem;  */
+  font-weight: 700;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+.dynamic-greet li{
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+@keyframes slide {
+  100%{
+    top: -24rem;
+    width: 100%;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+}
+.dynamic-greet li span{
+  position: relative;
+  width: 100%;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #E9D5FA;
+  border-left: 0.125rem solid #FC6D6D;
+  animation: typing 3s steps(9) infinite;
+}
+
+
+@keyframes typing {
+
+  0%{
+    left: 0;
+    top: 0rem;
+  }
+  
+  40%, 60%{
+    /* left: calc(100% + 30px); */
+    left: calc(100%);
+    top: 0rem;
+  } 
+ 
+  100%{
+    left: 0;
+    top: 0rem;
+  }
+}
+
+
+
+/* Carousel */
+/* 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: system-ui;
+  background: #3d76d9;
+} */
+
+.visuallyhidden {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  opacity: 0;
+  
+}
+/* 
+h1 {
+  color: white;
+  text-align: center;
+  margin-top: 1em;
+} */
+
+.card-container {
+  overflow: hidden;
+  padding: 20px;
+  margin-top: 2em;
+  /* background: rgba(0,0,0,.1) */
+}
+
+.card-carousel {
+  --card-width: 80%;
+  --card-max-width: 280px;
+  --card-height: 350px;
+  --carousel-min-width: 600px;
+  z-index: 1;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  height: var(--card-height);
+  min-width: var(--carousel-min-width);
+  transition: filter .3s ease;
+}
+
+@media screen and (max-width: 640px) {
+  .card-carousel {
+    margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
+  }
+}
+
+.card-carousel.smooth-return {
+  transition: all .2s ease;
+}
+
+.card-carousel .card {
+  /* background: whitesmoke; */
+  width: var(--card-width);
+  max-width: var(--card-max-width);
+  text-align: center;
+  padding: 1em;
+  min-width: 250px;
+  height: var(--card-height);
+  position: absolute;
+  margin: 0 auto;
+  /* color: rgba(0,0,0,.5); */
+  transition: inherit;
+  /* -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
+  border-radius: 1em; */
+  filter: brightness(.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .card.highlight {
+  filter: brightness(1)
+} */
+
+
+/* .card:nth-of-type(1) .image-container {
+    background-image: url("https://blendergroup.com/wp-content/uploads/2020/03/blender-group-concreto-estampado-galeria4-1024x576.jpg")
+}
+ 
+.card:nth-of-type(2) .image-container {
+  background-image: url("https://blendergroup.com/wp-content/uploads/2020/03/blender-group-oxidantes-para-concreto-natural-dyes-8-1024x576.jpg")
+}
+
+.card:nth-of-type(3) .image-container {
+  background-image: url("https://blendergroup.com/wp-content/uploads/2019/08/blender-group-nuevos-sistemas-microcemento-deccofloor-1.jpeg")
+}
+.card:nth-of-type(4) .image-container {
+  background-image: url("https://blendergroup.com/wp-content/uploads/2019/08/blender-group-concreto-pulido-abrillantado-blender-7.jpg")
+}
+.card:nth-of-type(5) .image-container {
+  background-image: url("https://blendergroup.com/wp-content/uploads/2019/08/blender-group-herramientas-33.jpg")
+} */
+
+
+
+.image-container {
+  width: 15em;
+  height: 15em;
+  position: relative;
+  background-size: cover;
+  margin-bottom: 2em;
+  /* border-radius: 100%; */
+  /* padding: 1em; */
+  /* -webkit-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+-moz-box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3);
+box-shadow: inset 0px 0px 17px 0px rgba(0,0,0,0.3); */
+  
+}
+
+/* .image-container::after {
+  content: "";
+  display: block;
+  width: 120%;
+  height: 120%;
+  border: solid 3px rgba(0,0,0,.1);
+  border-radius: 100%;
+  position: absolute;
+  top: calc(-10% - 3px);
+  left: calc(-10% - 3px); */
+/* } */
+
+/* h2 {
+  padding: 1em;
+  margin-top: 1em;
+  background: rgba(0,0,0,.3);
+  text-align: center;
+  color: white;
+  border-radius: .2em;
+  display: inline-block;
+  transform: translateX(calc((100vw - 100%) / 2))
+}
+
+h2 a {
+  color: #f5b916
+} */
