@@ -201,15 +201,9 @@
 
     <!--  -->
     <!-- <button onclick="myFunction()">Click Me</button> -->
-    <!-- <button onclick="submitted=true">Click Me</button>
-          <script type="text/javascript">var submitted = false; </script>
-          <iframe
-          name="hidden_iframe"
-          id="hidden_iframe"
-          style="display: none"
-          onload="if(submitted){window.location='src/thankyou.html';}"
-          ></iframe> -->
+    <!-- <button onclick="submitted=true">Click Me</button> -->
     <!-- hire me -->
+
     <section class="md:flex bg-periwinkle p-10">
       <div class="md:flex-1 my-auto">
         <img
@@ -224,17 +218,14 @@
           >
             Hire Me
           </h2>
-          <p class="text-purple-haze pb-10 lg:text-lg">
+          <p class="text-light-red pb-10 lg:text-lg">
             Feel free to contact me at any time, through any method below.
           </p>
-          <a href="mailto:cardosopab@gmail.com" class="underline text-light-red"
-            >cardosopab@gmail.com</a
-          >
-          <div class="my-6 w-6">
+          <div class="mb-6 w-6">
             <!-- Github -->
             <a href="https://github.com/cardosopab" target="_blank">
               <svg
-                class="fill-purple-200"
+                class="fill-red-400"
                 xmlns="http://www.w3.org/2000/svg"
                 width="24"
                 height="24"
@@ -246,8 +237,24 @@
               </svg>
             </a>
           </div>
-          <div class="px-2 gap-6 md:gap-32">
-            <form>
+          <a href="mailto:cardosopab@gmail.com" class="underline text-light-red"
+            >cardosopab@gmail.com</a
+          >
+          <!-- https://docs.google.com/forms/d/e/1FAIpQLSdPgktKjPfuDmIvXdzD6IM1WfFtIB8VEtY2Xq8yjYkzPcBUpg/viewform?usp=pp_url&entry.2005620554=Juan&entry.1045781291=dodgebullets69@gmail.com&entry.839337160=Ahoj -->
+          <div class="px-2 mt-6 gap-6 md:gap-32">
+            <script type="text/javascript">
+              var submitted = false;
+            </script>
+            <iframe
+              name="hidden_iframe"
+              id="hidden_iframe"
+              style="display: none"
+              onload="if(submitted){window.location='src/thankyou.html';}"
+            ></iframe>
+            <form
+              action="https://docs.google.com/forms/d/e/1FAIpQLSdPgktKjPfuDmIvXdzD6IM1WfFtIB8VEtY2Xq8yjYkzPcBUpg/formResponse"
+              method="post" target="hidden_iframe" onsubmit="submitted=true;"
+            >
               <div>
                 <label class="text-purple-haze block mb-6 font-bold"
                   >Name</label

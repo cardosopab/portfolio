@@ -1,1 +1,129 @@
-THANK YOU!
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link href="../src/output.css" rel="stylesheet" />
+    <link href="../src/temp.css" rel="stylesheet" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-purple-haze h-screen">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- nav bar sm lg -->
+    <nav
+      class="py-1 px-4 sm:py-6 sm:px-4 lg:py-6 lg:px-10 lg:text-lg bg-periwinkle flex items-center justify-between"
+    >
+      <div>
+        <!-- <h1 class="text-purple-haze">Pablo Cardoso</h1> -->
+        <img src="../src/assets/abs_open_logo.png" class="h-5 sm:h-8" />
+      </div>
+      <ul class="hidden sm:flex justify-end items-center">
+        <li>
+          <a href="../index.html" class="text-purple-haze p-2 lg:p-10">Projects</a>
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
+            >Hire Me</a
+          >
+        </li>
+      </ul>
+      <!-- burger menu sm -->
+      <div class="sm:hidden">
+        <button class="navbar-burger flex items-center text-purple-haze p-3">
+          <svg
+            class="block h-4 w-4 fill-current"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Mobile menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+          </svg>
+        </button>
+      </div>
+      <div class="navbar-menu relative z-50 hidden">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav
+          class="fixed top-0 right-0 bottom-0 flex flex-col h-1/2 w-3/6 max-w-sm py-6 px-6 bg-periwinkle border-r overflow-y-auto"
+        >
+          <div class="flex items-center mb-8">
+            <button class="navbar-close">
+              <svg
+                class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M6 18L18 6M6 6l12 12"
+                ></path>
+              </svg>
+            </button>
+          </div>
+          <div>
+            <ul>
+              <li class="mb-1 justify-center">
+                <a
+                  class="block p-4 text-sm font-semibold text-purple-haze hover:bg-blue-50 hover:text-gradient rounded"
+                  href="../../index.html"
+                  >Projects</a
+                >
+              </li>
+              <li class="mb-1 justify-center">
+                <a
+                  class="block p-4 text-sm font-semibold text-purple-haze hover:bg-blue-50 hover:text-gradient rounded"
+                  href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </nav>
+    <!-- hero -->
+    <header class=" flex flex-col h-full">
+        <div class="flex-auto h-auto"></div>
+      <div class="flex-auto h-auto">
+        <h1
+          class="font-bold text-4xl sm:text-5xl lg:text-6xl text-center text-gradient"
+        >
+          Thank YOU!
+        </h1>
+      </div>
+      <div class="flex-auto h-auto">
+        <div class="md:flex mx-auto items-center">
+            <!-- left -->
+            <div class="md:flex-1">
+              <div
+                class="wrapper justify-center flex text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
+              >
+                <ul class="dynamic-thankyou">
+                  <li><span>I'll get back to you,</span></li>
+                </ul>
+                <ul class="dynamic-ASAP">
+                  <li><span class="pl-2">ASAP!</span></li>
+                </ul>
+              </div>
+            </div>
+            <!-- right -->
+            <div class="md:flex-1">
+              <img
+                class="mx-auto animate-spin-slow w-1/2 sm:h-1/4"
+                src="../src/assets/pc_300.png"
+              />
+            </div>
+          </div>
+      </div>
+    </header>
+  </body>
+</html>
