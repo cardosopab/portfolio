@@ -703,6 +703,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 // carousel
+// call carousel variables
 const cardsContainer = document.querySelector(".card-carousel");
 const cardsController = document.querySelector(".card-carousel + .card-controller")
 
@@ -713,7 +714,6 @@ class DraggingEvent {
   // starting/stoping dragging
   event(callback) {
     let handler;
-    
     this.target.addEventListener("mousedown", e => {
       e.preventDefault()
       
@@ -754,11 +754,14 @@ class DraggingEvent {
   }
   
   // Get the distance that the user has dragged
+
+  // TODO: add a dragging stop after a certain amount of dragging
   getDistance(callback) {
     function distanceInit(e1) {
       let startingX, startingY;
       
       if ("touches" in e1) {
+        // console.log(e1);
         startingX = e1.touches[0].clientX
         startingY = e1.touches[0].clientY
       } else {
@@ -768,6 +771,7 @@ class DraggingEvent {
       
 
       return function(e2) {
+        // console.log(e2);
         if (e2 === null) {
           return callback(null)
         } else {
