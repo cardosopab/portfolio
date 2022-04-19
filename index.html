@@ -7,7 +7,7 @@
     <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
     <title>Pablo Cardoso</title>
     <link href="/src/output.css" rel="stylesheet" />
-    <link href="/src/temp.css" rel="stylesheet" />
+    <link href="/src/index.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="src/assets/abs_open_logo.png" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -141,22 +141,23 @@
     </header>
 
     <!-- projects -->
+    <!-- ChatApp -->
     <article class="min-h-screen bg-lavender-web text-center" id="projects">
       <h2
         class="text-gradient py-10 text-3xl sm:text-4xl lg:text-5xl font-bold"
       >
-        Projects
+      <a
+      href="https://chatapp-ec133.web.app/"
+      target="_blank"
+      class="text-light-red font-bold underline"
+      title="https://chatapp-ec133.web.app/"
+      >Chatapp</a
+    >
       </h2>
       <!-- Chatapp -->
       <div class="py-10 lg:text-lg">
         <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
-          <a
-            href="https://chatapp-ec133.web.app/"
-            target="_blank"
-            class="text-light-red font-bold underline"
-            title="https://chatapp-ec133.web.app/"
-            >Chatapp</a
-          >: built with
+          Built with
           <a
             href="https://flutter.dev/"
             target="_blank"
@@ -217,11 +218,176 @@
       </div>
     </article>
 
-    <!--  -->
-    <!-- <button onclick="myFunction()">Click Me</button> -->
-    <!-- <button onclick="submitted=true">Click Me</button> -->
-    <!-- hire me -->
 
+    <!-- National Weather -->
+    <article class="min-h-screen bg-lavender-web text-center" id="projects">
+      <h2
+      class="py-10 text-3xl sm:text-4xl lg:text-5xl font-bold"
+      >
+      <a href="https://chatapp-ec133.web.app/"
+      target="_blank"
+      class="text-light-red font-bold underline"
+      title="https://chatapp-ec133.web.app/">
+        National Weather
+      </a>
+    </h2>
+      <div class="py-10 lg:text-lg">
+        <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
+          Was built using 
+          <a
+            href="https://flutter.dev/"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://flutter.dev/"
+          >
+            Flutter</a
+          >, and the 
+          <a
+            href="https://www.weather.gov/"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://www.weather.gov/"
+            >weather.gov</a
+          > API, I used the 
+          <a
+            href="https://developers.google.com/maps/documentation/geocoding/overview"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://developers.google.com/maps/documentation/geocoding/overview"
+            >Google Geocoding</a
+          >
+          API to find the coordinates of the address searched, then plugged it into the weather.gov API, while saving my searches with the <a
+          href="https://pub.dev/packages/shared_preferences"
+          target="_blank"
+          class="text-light-red font-bold underline"
+          title="https://pub.dev/packages/shared_preferences"
+          >Shared Preferences Plugin</a>
+          to the device.
+        </p>
+      </div>
+      <!-- National Weather carousel -->
+      <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
+        Swipe Through
+      </h3>
+
+      <div class="nw-card-container h-96 mx-auto">
+        <div class="nw-card-carousel">
+          <div class="card" id="1">
+            <img class="h-80" src="src/assets/signin.png" />
+          </div>
+          <div class="card" id="2">
+            <img class="h-80" src="src/assets/profile.png" />
+          </div>
+          <div class="card" id="3">
+            <img class="h-80" src="src/assets/deleteprofile.png" />
+          </div>
+          <!--<div class="card" id="4">
+            <img class="h-80" src="src/assets/chatrooms.png" />
+          </div> -->
+          <div class="card" id="5">
+            <img class="h-80" src="src/assets/chat.png" />
+          </div>
+          <div class="card" id="6">
+            <img class="h-80" src="src/assets/chatOpenKeyboard.png" />
+          </div>
+        </div>
+        <a href="#" class="visuallyhidden nw-card-controller w-1/2"
+          >Carousel controller</a
+        >
+      </div>
+    </article>
+
+    <!-- newsapp -->
+    <article class="min-h-screen bg-lavender-web text-center" id="projects">
+      <h2
+      class="py-10 text-3xl sm:text-4xl lg:text-5xl font-bold"
+      >
+      <a href="https://chatapp-ec133.web.app/"
+      target="_blank"
+      class="text-light-red font-bold underline"
+      title="https://chatapp-ec133.web.app/">
+        NewsApp
+      </a>
+    </h2>
+      
+      <div class="py-10 lg:text-lg">
+        <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
+          Was built using 
+          <a
+            href="https://flutter.dev/"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://flutter.dev/"
+          >
+            Flutter</a
+          >, and the 
+          <a
+            href="https://newsapi.org/"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://newsapi.org/"
+            >newsapi.org</a
+          > API.
+        </p>
+      </div>
+      <!-- newsapp carousel -->
+     <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
+        Swipe Through
+      </h3>
+ <!-- 
+      <div class="na-card-container h-96 mx-auto">
+        <div class="na-card-carousel">
+          <div class="card" id="1">
+            <img class="h-80" src="src/assets/signin.png" />
+          </div>
+          <div class="card" id="2">
+            <img class="h-80" src="src/assets/profile.png" />
+          </div>
+          <div class="card" id="3">
+            <img class="h-80" src="src/assets/deleteprofile.png" />
+          </div>
+          <div class="card" id="5">
+            <img class="h-80" src="src/assets/chat.png" />
+          </div>
+          <div class="card" id="6">
+            <img class="h-80" src="src/assets/chatOpenKeyboard.png" />
+          </div>
+        </div>
+        <a href="#" class="visuallyhidden na-card-controller w-1/2"
+          >Carousel controller</a
+        >
+      </div>-->
+      <div class="na-card-container h-96 mx-auto">
+        <div class="na-card-carousel">
+          <div class="card" id="1">
+            <img class="h-80" src="src/assets/signin.png" />
+          </div>
+          <div class="card" id="2">
+            <img class="h-80" src="src/assets/profile.png" />
+          </div>
+          <div class="card" id="3">
+            <img class="h-80" src="src/assets/deleteprofile.png" />
+          </div>
+          <!--<div class="card" id="4">
+            <img class="h-80" src="src/assets/chatrooms.png" />
+          </div> -->
+          <div class="card" id="5">
+            <img class="h-80" src="src/assets/chat.png" />
+          </div>
+          <div class="card" id="6">
+            <img class="h-80" src="src/assets/chatOpenKeyboard.png" />
+          </div>
+        </div>
+        <a href="#" class="visuallyhidden nw-card-controller w-1/2"
+          >Carousel controller</a
+        >
+      </div>
+      <a href="#" class="visuallyhidden na-card-controller w-1/2"
+          >Carousel controller</a
+        >
+    </article> 
+
+    <!-- hire me -->
     <section class="md:flex bg-periwinkle p-10 min-h-screen">
       <div class="md:flex-1 my-auto">
         <img
