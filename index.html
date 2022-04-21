@@ -4,12 +4,16 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/src/assets/abs_open_logo.png"
+    />
     <title>Pablo Cardoso</title>
     <link href="/src/output.css" rel="stylesheet" />
     <link href="/src/index.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="src/assets/abs_open_logo.png" />
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
   </head>
 
   <body class="max-w-7xl lg:w-4/5 lg:mx-auto bg-periwinkle-crayola">
@@ -18,12 +22,12 @@
     <header class="min-h-screen flex flex-col bg-purple-haze">
       <!-- nav bar sm lg -->
       <nav
-        class="py-1 px-4 sm:py-6 sm:px-4 lg:py-6 lg:px-10 lg:text-lg bg-periwinkle flex items-center justify-between"
+        class="py-3 px-4 text-sm sm:py-6 sm:px-4 lg:py-6 lg:px-10 lg:text-lg bg-periwinkle flex items-center justify-between"
       >
         <div>
           <img src="src/assets/abs_open_logo.png" class="h-5 sm:h-8" />
         </div>
-        <ul class="hidden sm:flex justify-end items-center">
+        <ul class="flex justify-end items-center">
           <li>
             <a href="#projects" class="text-purple-haze p-2 lg:p-10"
               >Projects</a
@@ -32,72 +36,17 @@
           <li>
             <a
               href="#contact"
-              class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
+              class="p-1 sm:p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
               >Hire Me</a
             >
           </li>
         </ul>
-        <!-- burger menu sm -->
-        <div class="sm:hidden">
-          <button class="navbar-burger flex items-center text-purple-haze p-3">
-            <svg
-              class="block h-4 w-4 fill-current"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Mobile menu</title>
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-            </svg>
-          </button>
-        </div>
-        <div class="navbar-menu relative z-50 hidden">
-          <div
-            class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"
-          ></div>
-          <nav
-            class="fixed top-0 right-0 bottom-0 flex flex-col h-1/2 w-3/6 max-w-sm py-6 px-6 bg-periwinkle border-r overflow-y-auto"
-          >
-            <div class="flex items-center mb-8">
-              <button class="navbar-close">
-                <svg
-                  class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  ></path>
-                </svg>
-              </button>
-            </div>
-            <div>
-              <ul>
-                <li class="mb-1 justify-center">
-                  <a
-                    class="block p-4 text-sm font-semibold text-purple-haze hover:bg-blue-50 hover:text-gradient rounded"
-                    href="#projects"
-                    >Projects</a
-                  >
-                </li>
-                <li class="mb-1 justify-center">
-                  <a
-                    class="block p-4 text-sm font-semibold text-purple-haze hover:bg-blue-50 hover:text-gradient rounded"
-                    href="#contact"
-                    >Contact</a
-                  >
-                </li>
-              </ul>
-            </div>
+        
           </nav>
         </div>
       </nav>
       <!-- hero -->
-      <div class="md:flex-auto flex items-center">
+      <div class="flex-auto flex items-center">
         <div class="flex-1">
           <h1
             class="text-periwinkle font-bold text-4xl sm:text-5xl lg:text-6xl text-center justify-center"
@@ -107,11 +56,11 @@
         </div>
       </div>
       <!-- hero2 -->
-      <div class="md:flex-auto md:flex items-center">
+      <div class="flex-auto flex flex-col sm:flex md:items-center">
         <!-- left  -->
-        <div class="flex-auto w-1/2">
+        <div class="flex-auto flex flex-col sm:w-1/2">
           <h2
-            class="p-2 text-periwinkle text-center text-3xl sm:text-4xl lg:text-5xl"
+            class="flex-auto p-2 text-periwinkle text-center text-3xl sm:text-4xl lg:text-5xl"
           >
             My name is Pablo, <br />I'm a
             <a
@@ -125,13 +74,13 @@
             mobile app developer.
           </h2>
           <h3
-            class="p-2 text-periwinkle text-center text-xl sm:text-2xl lg:tex-3xl"
+            class="flex-auto p-2 text-periwinkle text-center text-xl sm:text-2xl lg:tex-3xl"
           >
             Let's build something great, together!
           </h3>
         </div>
         <!-- right -->
-        <div class="flex-auto w-1/2">
+        <div class="flex-auto sm:w-1/2">
           <img
             class="mx-auto w-1/2 sm:h-1/4"
             src="src/assets/flutter-ascii-transparent.png"
@@ -160,16 +109,7 @@
       </h2>
       <div class="flex-auto lg:text-lg">
         <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
-          Built with
-          <a
-            href="https://flutter.dev/"
-            target="_blank"
-            class="text-light-red font-bold underline"
-            title="https://flutter.dev/"
-          >
-            Flutter</a
-          >, a cross platform framework for Android, iOS, web, and desktop, with
-          one code base. While utilizing the
+          Utilizing the
           <a
             href="https://firebase.google.com/"
             target="_blank"
@@ -177,7 +117,19 @@
             title="https://firebase.google.com/"
             >Firebase</a
           >
-          database services, Firestore as the database, and Storage for user
+          database services, <a
+          href="https://firebase.google.com/products/firestore/"
+          target="_blank"
+          class="text-light-red font-bold underline"
+          title="https://firebase.google.com/products/firestore/"
+          >Firestore</a
+        > as the database, and <a
+        href="https://firebase.google.com/products/storage/"
+        target="_blank"
+        class="text-light-red font-bold underline"
+        title="https://firebase.google.com/products/storage/"
+        >Storage</a
+      > for saving the user's
           images.
         </p>
       </div>
@@ -187,25 +139,25 @@
           Swipe Through
         </h3>
 
-        <div class="card-container h-96 mx-auto">
+        <div class="card-container h-48 sm:h-96 mx-auto">
           <div class="card-carousel">
             <div class="card" id="1">
-              <img class="h-96" src="src/assets/signin.png" />
+              <img class="h-48 sm:h-96" src="src/assets/signin.png" />
             </div>
             <div class="card" id="2">
-              <img class="h-96" src="src/assets/profile.png" />
+              <img class="h-48 sm:h-96" src="src/assets/profile.png" />
             </div>
             <div class="card" id="3">
-              <img class="h-96" src="src/assets/deleteprofile.png" />
+              <img class="h-48 sm:h-96" src="src/assets/chat.png" />
             </div>
             <div class="card" id="4">
-            <img class="h-96" src="src/assets/chatrooms.png" />
-          </div>
+              <img class="h-48 sm:h-96" src="src/assets/chatrooms.png" />
+            </div>
             <div class="card" id="5">
-              <img class="h-96" src="src/assets/chat.png" />
+              <img class="h-48 sm:h-96" src="src/assets/deleteprofile.png" />
             </div>
             <!-- <div class="card" id="6">
-              <img class="h-96" src="src/assets/chatOpenKeyboard.png" />
+              <img class="h-48 sm:h-96" src="src/assets/chatOpenKeyboard.png" />
             </div> -->
           </div>
           <a href="#" class="visuallyhidden card-controller w-1/2"
@@ -232,33 +184,17 @@
       <div class="flex-auto"></div>
       <h2 class="flex-auto text-3xl sm:text-4xl lg:text-5xl font-bold">
         <a
-          href="https://chatapp-ec133.web.app/"
+          href="https://usanationalweatherbuddy.web.app/"
           target="_blank"
           class="text-light-red font-bold underline"
-          title="https://chatapp-ec133.web.app/"
+          title="https://usanationalweatherbuddy.web.app/"
         >
           National Weather
         </a>
       </h2>
       <div class="flex-auto lg:text-lg">
         <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
-          Was built using
-          <a
-            href="https://flutter.dev/"
-            target="_blank"
-            class="text-light-red font-bold underline"
-            title="https://flutter.dev/"
-          >
-            Flutter</a
-          >, and the
-          <a
-            href="https://www.weather.gov/"
-            target="_blank"
-            class="text-light-red font-bold underline"
-            title="https://www.weather.gov/"
-            >weather.gov</a
-          >
-          API, I used Google's
+          Utilizing Google's
           <a
             href="https://developers.google.com/maps/documentation/geocoding/overview"
             target="_blank"
@@ -267,7 +203,13 @@
             >Geocoding</a
           >
           API to find the coordinates of the address searched, then plugged it
-          into the weather.gov API, while saving my searches with the
+          into the <a
+          href="https://www.weather.gov/"
+          target="_blank"
+          class="text-light-red font-bold underline"
+          title="https://www.weather.gov/"
+          >weather.gov</a
+        > API, while saving my searches to the device, with the
           <a
             href="https://pub.dev/packages/shared_preferences"
             target="_blank"
@@ -275,7 +217,7 @@
             title="https://pub.dev/packages/shared_preferences"
             >Shared Preferences</a
           >
-          plugin to the device.
+          plugin.
         </p>
       </div>
       <!-- National Weather carousel -->
@@ -284,26 +226,23 @@
           Swipe Through
         </h3>
 
-        <div class="nw-card-container h-96 mx-auto">
+        <div class="nw-card-container h-48 sm:h-96 mx-auto">
           <div class="nw-card-carousel">
             <div class="card" id="1">
-              <img class="h-96" src="src/assets/signin.png" />
+              <img class="h-48 sm:h-96" src="src/assets/wbhome.png" />
             </div>
             <div class="card" id="2">
-              <img class="h-96" src="src/assets/profile.png" />
+              <img class="h-48 sm:h-96" src="src/assets/wbdelete.png" />
             </div>
             <div class="card" id="3">
-              <img class="h-96" src="src/assets/deleteprofile.png" />
+              <img class="h-48 sm:h-96" src="src/assets/wblocations.png" />
             </div>
             <div class="card" id="4">
-            <img class="h-96" src="src/assets/chatrooms.png" />
-          </div>
-            <div class="card" id="5">
-              <img class="h-96" src="src/assets/chat.png" />
+              <img class="h-48 sm:h-96" src="src/assets/wbdetails.png" />
             </div>
-            <!-- <div class="card" id="6">
-              <img class="h-96" src="src/assets/chatOpenKeyboard.png" />
-            </div> -->
+            <div class="card" id="5">
+              <img class="h-48 sm:h-96" src="src/assets/wbreadmore.png" />
+            </div>
           </div>
           <a href="#" class="visuallyhidden nw-card-controller w-1/2"
             >Carousel controller</a
@@ -312,10 +251,10 @@
       </div>
       <div class="flex-auto">
         <a
-          href="https://chatapp-ec133.web.app/"
+          href="https://usanationalweatherbuddy.web.app/"
           target="_blank"
           class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
-          title="https://chatapp-ec133.web.app/"
+          title="https://usanationalweatherbuddy.web.app/"
           >Check Out the Web Build!</a
         >
       </div>
@@ -329,10 +268,10 @@
       <div class="flex-auto"></div>
       <h2 class="flex-auto text-3xl sm:text-4xl lg:text-5xl font-bold">
         <a
-          href="https://chatapp-ec133.web.app/"
+          href="https://newsapp-39cee.web.app/"
           target="_blank"
           class="text-light-red font-bold underline"
-          title="https://chatapp-ec133.web.app/"
+          title="https://newsapp-39cee.web.app/"
         >
           NewsApp
         </a>
@@ -340,15 +279,7 @@
 
       <div class="flex-auto lg:text-lg">
         <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
-          Was built using
-          <a
-            href="https://flutter.dev/"
-            target="_blank"
-            class="text-light-red font-bold underline"
-            title="https://flutter.dev/"
-          >
-            Flutter</a
-          >, and the
+          Utilizing the
           <a
             href="https://newsapi.org/"
             target="_blank"
@@ -367,45 +298,16 @@
         </p>
       </div>
       <!-- newsapp carousel -->
-      <div class="flex-auto">
-        <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
-          Swipe Through
-        </h3>
-        <div class="na-card-container h-96 mx-auto">
-          <div class="na-card-carousel">
-            <div class="card" id="1">
-              <img class="h-96" src="src/assets/signin.png" />
-            </div>
-            <div class="card" id="2">
-              <img class="h-96" src="src/assets/profile.png" />
-            </div>
-            <div class="card" id="3">
-              <img class="h-96" src="src/assets/deleteprofile.png" />
-            </div>
-            <div class="card" id="4">
-              <img class="h-96" src="src/assets/chatrooms.png" />
-            </div>
-            <div class="card" id="5">
-              <img class="h-96" src="src/assets/chat.png" />
-            </div>
-            <!-- <div class="card" id="6">
-              <img class="h-96" src="src/assets/chatOpenKeyboard.png" />
-            </div> -->
-          </div>
-          <a href="#" class="visuallyhidden nw-card-controller w-1/2"
-            >Carousel controller</a
-          >
-        </div>
-        <a href="#" class="visuallyhidden na-card-controller w-1/2"
-          >Carousel controller</a
-        >
+      <div class="flex-auto flex justify-around">
+        <img class="h-48 sm:h-96" src="src/assets/nahome.png" />
+        <img class="h-48 sm:h-96" src="src/assets/nareadmore.png" />
       </div>
       <div class="flex-auto">
         <a
-          href="https://chatapp-ec133.web.app/"
+          href="https://newsapp-39cee.web.app/"
           target="_blank"
           class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
-          title="https://chatapp-ec133.web.app/"
+          title="https://newsapp-39cee.web.app/"
           >Check Out the Web Build!</a
         >
       </div>
@@ -415,7 +317,7 @@
     <section class="md:flex bg-periwinkle p-10 min-h-screen">
       <div class="md:flex-1 my-auto">
         <img
-          class="mx-auto animate-spin-slow w-1/2 mt-4"
+          class="mx-auto animate-spin-slow w-1/2 max-w-sm mt-4"
           src="src/assets/pc_300.png"
         />
       </div>
