@@ -12,10 +12,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body>
+  <body class="max-w-7xl lg:w-4/5 lg:mx-auto bg-periwinkle-crayola">
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <header class="h-screen flex flex-col bg-purple-haze">
+    <header class="min-h-screen flex flex-col bg-purple-haze">
       <!-- nav bar sm lg -->
       <nav
         class="py-1 px-4 sm:py-6 sm:px-4 lg:py-6 lg:px-10 lg:text-lg bg-periwinkle flex items-center justify-between"
@@ -136,26 +136,29 @@
             class="mx-auto w-1/2 sm:h-1/4"
             src="src/assets/flutter-ascii-transparent.png"
           />
-        </div> 
+        </div>
       </div>
     </header>
 
     <!-- projects -->
     <!-- ChatApp -->
-    <article class="min-h-screen bg-lavender-web text-center" id="projects">
-      <h2
-        class="text-gradient py-10 text-3xl sm:text-4xl lg:text-5xl font-bold"
-      >
-      <a
-      href="https://chatapp-ec133.web.app/"
-      target="_blank"
-      class="text-light-red font-bold underline"
-      title="https://chatapp-ec133.web.app/"
-      >Chatapp</a
+    <article
+      class="min-h-screen bg-lavender-web text-center flex flex-col"
+      id="projects"
     >
+      <div class="flex-auto"></div>
+      <h2
+        class="flex-auto text-gradient text-3xl sm:text-4xl lg:text-5xl font-bold"
+      >
+        <a
+          href="https://chatapp-ec133.web.app/"
+          target="_blank"
+          class="text-light-red font-bold underline"
+          title="https://chatapp-ec133.web.app/"
+          >Chatapp</a
+        >
       </h2>
-      <!-- Chatapp -->
-      <div class="py-10 lg:text-lg">
+      <div class="flex-auto lg:text-lg">
         <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
           Built with
           <a
@@ -175,65 +178,71 @@
             >Firebase</a
           >
           database services, Firestore as the database, and Storage for user
-          images. Click for a
-          <a
-            href="https://chatapp-ec133.web.app/"
-            target="_blank"
-            class="text-light-red font-bold underline"
-            title="https://chatapp-ec133.web.app/"
-            >Web Build</a
-          >
-          of Chatapp.
+          images.
         </p>
       </div>
       <!-- Chatapp carousel -->
-      <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
-        Swipe Through
-      </h3>
+      <div class="flex-auto">
+        <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
+          Swipe Through
+        </h3>
 
-      <div class="card-container h-96 mx-auto">
-        <div class="card-carousel">
-          <div class="card" id="1">
-            <img class="h-80" src="src/assets/signin.png" />
+        <div class="card-container h-96 mx-auto">
+          <div class="card-carousel">
+            <div class="card" id="1">
+              <img class="h-96" src="src/assets/signin.png" />
+            </div>
+            <div class="card" id="2">
+              <img class="h-96" src="src/assets/profile.png" />
+            </div>
+            <div class="card" id="3">
+              <img class="h-96" src="src/assets/deleteprofile.png" />
+            </div>
+            <div class="card" id="4">
+            <img class="h-96" src="src/assets/chatrooms.png" />
           </div>
-          <div class="card" id="2">
-            <img class="h-80" src="src/assets/profile.png" />
+            <div class="card" id="5">
+              <img class="h-96" src="src/assets/chat.png" />
+            </div>
+            <!-- <div class="card" id="6">
+              <img class="h-96" src="src/assets/chatOpenKeyboard.png" />
+            </div> -->
           </div>
-          <div class="card" id="3">
-            <img class="h-80" src="src/assets/deleteprofile.png" />
-          </div>
-          <!--<div class="card" id="4">
-            <img class="h-80" src="src/assets/chatrooms.png" />
-          </div> -->
-          <div class="card" id="5">
-            <img class="h-80" src="src/assets/chat.png" />
-          </div>
-          <div class="card" id="6">
-            <img class="h-80" src="src/assets/chatOpenKeyboard.png" />
-          </div>
+          <a href="#" class="visuallyhidden card-controller w-1/2"
+            >Carousel controller</a
+          >
         </div>
-        <a href="#" class="visuallyhidden card-controller w-1/2"
-          >Carousel controller</a
+      </div>
+      <div class="flex-auto">
+        <a
+          href="https://chatapp-ec133.web.app/"
+          target="_blank"
+          class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
+          title="https://chatapp-ec133.web.app/"
+          >Check Out the Web Build!</a
         >
       </div>
     </article>
 
-
     <!-- National Weather -->
-    <article class="min-h-screen bg-lavender-web text-center" id="projects">
-      <h2
-      class="py-10 text-3xl sm:text-4xl lg:text-5xl font-bold"
-      >
-      <a href="https://chatapp-ec133.web.app/"
-      target="_blank"
-      class="text-light-red font-bold underline"
-      title="https://chatapp-ec133.web.app/">
-        National Weather
-      </a>
-    </h2>
-      <div class="py-10 lg:text-lg">
+    <article
+      class="min-h-screen bg-lavender-web text-center flex flex-col"
+      id="projects"
+    >
+      <div class="flex-auto"></div>
+      <h2 class="flex-auto text-3xl sm:text-4xl lg:text-5xl font-bold">
+        <a
+          href="https://chatapp-ec133.web.app/"
+          target="_blank"
+          class="text-light-red font-bold underline"
+          title="https://chatapp-ec133.web.app/"
+        >
+          National Weather
+        </a>
+      </h2>
+      <div class="flex-auto lg:text-lg">
         <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
-          Was built using 
+          Was built using
           <a
             href="https://flutter.dev/"
             target="_blank"
@@ -241,78 +250,97 @@
             title="https://flutter.dev/"
           >
             Flutter</a
-          >, and the 
+          >, and the
           <a
             href="https://www.weather.gov/"
             target="_blank"
             class="text-light-red font-bold underline"
             title="https://www.weather.gov/"
             >weather.gov</a
-          > API, I used the 
+          >
+          API, I used Google's
           <a
             href="https://developers.google.com/maps/documentation/geocoding/overview"
             target="_blank"
             class="text-light-red font-bold underline"
             title="https://developers.google.com/maps/documentation/geocoding/overview"
-            >Google Geocoding</a
+            >Geocoding</a
           >
-          API to find the coordinates of the address searched, then plugged it into the weather.gov API, while saving my searches with the <a
-          href="https://pub.dev/packages/shared_preferences"
-          target="_blank"
-          class="text-light-red font-bold underline"
-          title="https://pub.dev/packages/shared_preferences"
-          >Shared Preferences Plugin</a>
-          to the device.
+          API to find the coordinates of the address searched, then plugged it
+          into the weather.gov API, while saving my searches with the
+          <a
+            href="https://pub.dev/packages/shared_preferences"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://pub.dev/packages/shared_preferences"
+            >Shared Preferences</a
+          >
+          plugin to the device.
         </p>
       </div>
       <!-- National Weather carousel -->
-      <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
-        Swipe Through
-      </h3>
+      <div class="flex-auto">
+        <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
+          Swipe Through
+        </h3>
 
-      <div class="nw-card-container h-96 mx-auto">
-        <div class="nw-card-carousel">
-          <div class="card" id="1">
-            <img class="h-80" src="src/assets/signin.png" />
+        <div class="nw-card-container h-96 mx-auto">
+          <div class="nw-card-carousel">
+            <div class="card" id="1">
+              <img class="h-96" src="src/assets/signin.png" />
+            </div>
+            <div class="card" id="2">
+              <img class="h-96" src="src/assets/profile.png" />
+            </div>
+            <div class="card" id="3">
+              <img class="h-96" src="src/assets/deleteprofile.png" />
+            </div>
+            <div class="card" id="4">
+            <img class="h-96" src="src/assets/chatrooms.png" />
           </div>
-          <div class="card" id="2">
-            <img class="h-80" src="src/assets/profile.png" />
+            <div class="card" id="5">
+              <img class="h-96" src="src/assets/chat.png" />
+            </div>
+            <!-- <div class="card" id="6">
+              <img class="h-96" src="src/assets/chatOpenKeyboard.png" />
+            </div> -->
           </div>
-          <div class="card" id="3">
-            <img class="h-80" src="src/assets/deleteprofile.png" />
-          </div>
-          <!--<div class="card" id="4">
-            <img class="h-80" src="src/assets/chatrooms.png" />
-          </div> -->
-          <div class="card" id="5">
-            <img class="h-80" src="src/assets/chat.png" />
-          </div>
-          <div class="card" id="6">
-            <img class="h-80" src="src/assets/chatOpenKeyboard.png" />
-          </div>
+          <a href="#" class="visuallyhidden nw-card-controller w-1/2"
+            >Carousel controller</a
+          >
         </div>
-        <a href="#" class="visuallyhidden nw-card-controller w-1/2"
-          >Carousel controller</a
+      </div>
+      <div class="flex-auto">
+        <a
+          href="https://chatapp-ec133.web.app/"
+          target="_blank"
+          class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
+          title="https://chatapp-ec133.web.app/"
+          >Check Out the Web Build!</a
         >
       </div>
     </article>
 
     <!-- newsapp -->
-    <article class="min-h-screen bg-lavender-web text-center" id="projects">
-      <h2
-      class="py-10 text-3xl sm:text-4xl lg:text-5xl font-bold"
-      >
-      <a href="https://chatapp-ec133.web.app/"
-      target="_blank"
-      class="text-light-red font-bold underline"
-      title="https://chatapp-ec133.web.app/">
-        NewsApp
-      </a>
-    </h2>
-      
-      <div class="py-10 lg:text-lg">
+    <article
+      class="min-h-screen bg-lavender-web text-center flex flex-col"
+      id="projects"
+    >
+      <div class="flex-auto"></div>
+      <h2 class="flex-auto text-3xl sm:text-4xl lg:text-5xl font-bold">
+        <a
+          href="https://chatapp-ec133.web.app/"
+          target="_blank"
+          class="text-light-red font-bold underline"
+          title="https://chatapp-ec133.web.app/"
+        >
+          NewsApp
+        </a>
+      </h2>
+
+      <div class="flex-auto lg:text-lg">
         <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
-          Was built using 
+          Was built using
           <a
             href="https://flutter.dev/"
             target="_blank"
@@ -320,78 +348,74 @@
             title="https://flutter.dev/"
           >
             Flutter</a
-          >, and the 
+          >, and the
           <a
             href="https://newsapi.org/"
             target="_blank"
             class="text-light-red font-bold underline"
             title="https://newsapi.org/"
             >newsapi.org</a
-          > API.
+          >
+          API. I also implimented Google's
+          <a
+            href="https://admob.google.com/home/"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://admob.google.com/home/"
+            >AdMob</a
+          >, which will cycle an ad banner between every 3 news headlines.
         </p>
       </div>
       <!-- newsapp carousel -->
-     <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
-        Swipe Through
-      </h3>
- <!-- 
-      <div class="na-card-container h-96 mx-auto">
-        <div class="na-card-carousel">
-          <div class="card" id="1">
-            <img class="h-80" src="src/assets/signin.png" />
+      <div class="flex-auto">
+        <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
+          Swipe Through
+        </h3>
+        <div class="na-card-container h-96 mx-auto">
+          <div class="na-card-carousel">
+            <div class="card" id="1">
+              <img class="h-96" src="src/assets/signin.png" />
+            </div>
+            <div class="card" id="2">
+              <img class="h-96" src="src/assets/profile.png" />
+            </div>
+            <div class="card" id="3">
+              <img class="h-96" src="src/assets/deleteprofile.png" />
+            </div>
+            <div class="card" id="4">
+              <img class="h-96" src="src/assets/chatrooms.png" />
+            </div>
+            <div class="card" id="5">
+              <img class="h-96" src="src/assets/chat.png" />
+            </div>
+            <!-- <div class="card" id="6">
+              <img class="h-96" src="src/assets/chatOpenKeyboard.png" />
+            </div> -->
           </div>
-          <div class="card" id="2">
-            <img class="h-80" src="src/assets/profile.png" />
-          </div>
-          <div class="card" id="3">
-            <img class="h-80" src="src/assets/deleteprofile.png" />
-          </div>
-          <div class="card" id="5">
-            <img class="h-80" src="src/assets/chat.png" />
-          </div>
-          <div class="card" id="6">
-            <img class="h-80" src="src/assets/chatOpenKeyboard.png" />
-          </div>
+          <a href="#" class="visuallyhidden nw-card-controller w-1/2"
+            >Carousel controller</a
+          >
         </div>
         <a href="#" class="visuallyhidden na-card-controller w-1/2"
           >Carousel controller</a
         >
-      </div>-->
-      <div class="na-card-container h-96 mx-auto">
-        <div class="na-card-carousel">
-          <div class="card" id="1">
-            <img class="h-80" src="src/assets/signin.png" />
-          </div>
-          <div class="card" id="2">
-            <img class="h-80" src="src/assets/profile.png" />
-          </div>
-          <div class="card" id="3">
-            <img class="h-80" src="src/assets/deleteprofile.png" />
-          </div>
-          <!--<div class="card" id="4">
-            <img class="h-80" src="src/assets/chatrooms.png" />
-          </div> -->
-          <div class="card" id="5">
-            <img class="h-80" src="src/assets/chat.png" />
-          </div>
-          <div class="card" id="6">
-            <img class="h-80" src="src/assets/chatOpenKeyboard.png" />
-          </div>
-        </div>
-        <a href="#" class="visuallyhidden nw-card-controller w-1/2"
-          >Carousel controller</a
+      </div>
+      <div class="flex-auto">
+        <a
+          href="https://chatapp-ec133.web.app/"
+          target="_blank"
+          class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
+          title="https://chatapp-ec133.web.app/"
+          >Check Out the Web Build!</a
         >
       </div>
-      <a href="#" class="visuallyhidden na-card-controller w-1/2"
-          >Carousel controller</a
-        >
-    </article> 
+    </article>
 
     <!-- hire me -->
     <section class="md:flex bg-periwinkle p-10 min-h-screen">
       <div class="md:flex-1 my-auto">
         <img
-          class="mx-auto animate-spin-slow w-1/2 sm:h-1/4"
+          class="mx-auto animate-spin-slow w-1/2 mt-4"
           src="src/assets/pc_300.png"
         />
       </div>

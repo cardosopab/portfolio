@@ -106,17 +106,17 @@
   
 }
 .card-container, .nw-card-container, .na-card-container {
-  overflow: hidden;
-  padding: 20px;
-  margin-top: 2em;
+  /* overflow: hidden; */
+  /* padding: 20px; */
+  /* margin-top: 2em; */
   /* background: rgba(0,0,0,.1) */
 }
 
 .card-carousel, .nw-card-carousel, .na-card-carousel {
   --card-width: 80%;
-  --card-max-width: 280px;
-  --card-height: 350px;
-  --carousel-min-width: 600px;
+  /* --card-max-width: 280px; */
+  /*--card-height: 350px; */
+  /* --carousel-min-width: 600px; */
   z-index: 1;
   position: relative;
   margin: 0 auto;
