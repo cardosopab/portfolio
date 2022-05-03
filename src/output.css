@@ -956,3 +956,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   }
 }
 
+@media (min-width: 640px) {
+  .sm\:row {
+      display: flex;
+      flex-direction: row;
+  }
+}

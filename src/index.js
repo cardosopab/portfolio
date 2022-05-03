@@ -391,5 +391,5 @@ const carousel = new CardCarousel(cardsContainer)
 
 const nwCarousel = new CardCarousel(nwCardsContainer)
 
-const naCarousel = new CardCarousel(naCardsContainer)
+// const naCarousel = new CardCarousel(naCardsContainer)
 

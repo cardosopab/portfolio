@@ -9,7 +9,7 @@
       type="image/png"
       href="/src/assets/abs_open_logo.png"
     />
-    <title>Pablo cardoso</title>
+    <title>Pablo Cardoso</title>
     <link href="/src/output.css" rel="stylesheet" />
     <link href="/src/index.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="src/assets/abs_open_logo.png" />
@@ -19,10 +19,10 @@
   <body class="max-w-7xl lg:w-4/5 lg:mx-auto bg-periwinkle-crayola">
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <header class="min-h-screen flex flex-col bg-purple-haze">
+    <header class="min-h-screen sm:px-6 flex flex-col bg-purple-haze">
       <!-- nav bar sm lg -->
       <nav
-        class="py-3 px-4 text-sm sm:py-6 sm:px-4 lg:py-6 lg:px-10 lg:text-lg bg-periwinkle flex items-center justify-between"
+        class="px-4 md:px-6 lg:px-10 py-3 text-sm sm:py-6 md:text-base lg:py-6 lg:text-lg bg-periwinkle flex items-center justify-between"
       >
         <div>
           <img src="src/assets/abs_open_logo.png" class="h-5 sm:h-8" />
@@ -43,21 +43,21 @@
         </ul>
       </nav>
       <!-- hero -->
-      <div class="flex-auto flex items-center">
-        <div class="flex-1">
+      <div class="flex-auto flex items-center px-4 md:px-6 lg:px-10">
+        <div class="flex-auto">
           <h1
             class="text-periwinkle font-bold text-4xl sm:text-5xl lg:text-6xl text-center justify-center"
           >
-            Hello, <span class="text-gradient">World!</span>
+            Hello, <span class="text-periwinkle">World!</span>
           </h1>
         </div>
       </div>
       <!-- hero2 -->
-      <div class="flex-auto flex flex-col sm:flex md:items-center">
+      <div class="flex-auto flex flex-col sm:row px-4 md:px-6 lg:px-10">
         <!-- left  -->
         <div class="flex-auto flex flex-col sm:w-1/2">
           <h2
-            class="flex-auto p-2 text-periwinkle text-center text-3xl sm:text-4xl lg:text-5xl"
+            class="flex-auto py-2 text-periwinkle text-center text-3xl sm:text-4xl lg:text-5xl"
           >
             My name is Pablo, <br />I'm a
             <a
@@ -77,9 +77,9 @@
           </h3>
         </div>
         <!-- right -->
-        <div class="flex-auto sm:w-1/2">
+        <div class="flex-auto flex flex-col sm:w-1/2">
           <img
-            class="mx-auto w-1/2 sm:h-1/4"
+            class="mx-auto my-auto w-1/2"
             src="src/assets/flutter-ascii-transparent.png"
           />
         </div>
@@ -89,12 +89,12 @@
     <!-- projects -->
     <!-- ChatApp -->
     <article
-      class="min-h-screen bg-lavender-web text-center flex flex-col"
+      class="px-4 md:px-6 lg:px-10 min-h-screen bg-lavender-web text-center flex flex-col"
       id="projects"
     >
       <div class="flex-auto"></div>
       <h2
-        class="flex-auto text-gradient text-3xl sm:text-4xl lg:text-5xl font-bold"
+        class="flex-auto my-auto text-periwinkle text-3xl sm:text-4xl lg:text-5xl font-bold"
       >
         <a
           href="https://chatapp-ec133.web.app/"
@@ -106,7 +106,7 @@
       </h2>
       <div class="flex-auto lg:text-lg">
         <p class="text-periwinkle w-3/4 md:w-1/2 mx-auto">
-          Utilizing 
+          Utilizing
           <a
             href="https://firebase.google.com/"
             target="_blank"
@@ -114,7 +114,7 @@
             title="https://firebase.google.com/"
             >Firebase</a
           >
-           services, like
+          services, like
           <a
             href="https://firebase.google.com/products/firestore/"
             target="_blank"
@@ -122,57 +122,54 @@
             title="https://firebase.google.com/products/firestore/"
             >Firestore</a
           >
-          as the database, and
+          as the database, to login using Gmail. Be able to
+          check out the chatrooms, send, and receive messages, even
+          (<a
+            href="https://giphy.com/"
+            target="_blank"
+            class="text-light-red font-bold underline"
+            title="https://giphy.com/"
+            >Giphy</a
+          >!). While saving users profile pics in
           <a
             href="https://firebase.google.com/products/storage/"
             target="_blank"
             class="text-light-red font-bold underline"
             title="https://firebase.google.com/products/storage/"
             >Storage</a
-          >
-          to save the user's images.
+          >.
         </p>
+      </div>
+      <div class="flex-auto">
+        <h3 class="text-periwinkle text-xl sm:text-2xl lg:tex-3xl font-bold">
+          Swipe Through
+        </h3>
       </div>
       <!-- Chatapp carousel -->
       <div class="flex-auto">
-        <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
-          Swipe Through
-        </h3>
-
-        <div class="card-container h-80 mx-auto">
+        <div class="card-container h-80 sm:h-96 mx-auto">
           <div class="card-carousel">
             <div class="card" id="1">
-              <img class="h-80" src="src/assets/signin.png" />
+              <img class="h-80 sm:h-96" src="src/assets/signin.png" />
             </div>
             <div class="card" id="2">
-              <img class="h-80" src="src/assets/profile.png" />
+              <img class="h-80 sm:h-96" src="src/assets/profile.png" />
             </div>
             <div class="card" id="3">
-              <img class="h-80" src="src/assets/chat.png" />
+              <img class="h-80 sm:h-96" src="src/assets/chat.png" />
             </div>
             <div class="card" id="4">
-              <img class="h-80" src="src/assets/chatrooms.png" />
+              <img class="h-80 sm:h-96" src="src/assets/chatrooms.png" />
             </div>
             <div class="card" id="5">
-              <img class="h-80" src="src/assets/deleteprofile.png" />
+              <img class="h-80 sm:h-96" src="src/assets/chatOpenKeyboard.png" />
             </div>
-            <!-- <div class="card" id="6">
-              <img class="h-80" src="src/assets/chatOpenKeyboard.png" />
-            </div> -->
           </div>
           <a href="#" class="visuallyhidden card-controller w-1/2"
             >Carousel controller</a
           >
         </div>
       </div>
-      <!-- <div class="flex-auto flex overflow-x-auto  gap-6 snap-x snap-mandatory before:shrink-0 before:w-[30vw]  after:shrink-0 after:w-[30vw]">
-        <img class="h-80 shrink-0 snap-center" src="src/assets/chat.png" />
-        <img class="h-80 shrink-0 snap-center" src="src/assets/chatrooms.png" />
-        <img class="h-80 shrink-0 snap-center" src="src/assets/chatOpenKeyboard.png" />
-        <img class="h-80 shrink-0 snap-center" src="src/assets/deleteprofile.png" />
-        <img class="h-80 shrink-0 snap-center" src="src/assets/signin.png" />
-        <img class="h-80 shrink-0 snap-center" src="src/assets/profile.png" />
-      </div> -->
       <div class="flex-auto flex items-center justify-center">
         <a
           href="https://chatapp-ec133.web.app/"
@@ -186,8 +183,7 @@
 
     <!-- National Weather -->
     <article
-      class="min-h-screen bg-lavender-web text-center flex flex-col"
-      id="projects"
+      class="px-4 md:px-6 lg:px-10 min-h-screen bg-lavender-web text-center flex flex-col"
     >
       <div class="flex-auto"></div>
       <h2 class="flex-auto text-3xl sm:text-4xl lg:text-5xl font-bold">
@@ -210,7 +206,7 @@
             title="https://developers.google.com/maps/documentation/geocoding/overview"
             >Geocoding</a
           >
-          API to find the coordinates of the address searched, then plugged it
+          API to find the coordinates of the address searched, plugged it
           into the
           <a
             href="https://www.weather.gov/"
@@ -219,7 +215,7 @@
             title="https://www.weather.gov/"
             >weather.gov</a
           >
-          API, while saving my searches to the device, with the
+          API, then saving the searches to the device, with the
           <a
             href="https://pub.dev/packages/shared_preferences"
             target="_blank"
@@ -230,28 +226,29 @@
           plugin.
         </p>
       </div>
-      <!-- National Weather carousel -->
       <div class="flex-auto">
-        <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
+        <h3 class="text-periwinkle text-xl sm:text-2xl lg:tex-3xl font-bold">
           Swipe Through
         </h3>
-
-        <div class="nw-card-container h-80 mx-auto">
+      </div>
+      <!-- National Weather carousel -->
+      <div class="flex-auto">
+        <div class="nw-card-container h-80 sm:h-96 mx-auto">
           <div class="nw-card-carousel">
             <div class="card" id="1">
-              <img class="h-80" src="src/assets/wbhome.png" />
+              <img class="h-80 sm:h-96" src="src/assets/wbhome.png" />
             </div>
             <div class="card" id="2">
-              <img class="h-80" src="src/assets/wbdelete.png" />
+              <img class="h-80 sm:h-96" src="src/assets/wbdelete.png" />
             </div>
             <div class="card" id="3">
-              <img class="h-80" src="src/assets/wblocations.png" />
+              <img class="h-80 sm:h-96" src="src/assets/wblocations.png" />
             </div>
             <div class="card" id="4">
-              <img class="h-80" src="src/assets/wbdetails.png" />
+              <img class="h-80 sm:h-96" src="src/assets/wbdetails.png" />
             </div>
             <div class="card" id="5">
-              <img class="h-80" src="src/assets/wbreadmore.png" />
+              <img class="h-80 sm:h-96" src="src/assets/wbreadmore.png" />
             </div>
           </div>
           <a href="#" class="visuallyhidden nw-card-controller w-1/2"
@@ -271,9 +268,9 @@
     </article>
 
     <!-- newsapp -->
-    <article
-      class="min-h-screen bg-lavender-web text-center flex flex-col"
-      id="projects"
+    <!-- <article
+      class="px-4 md:px-6 lg:px-10 min-h-screen bg-lavender-web text-center flex flex-col"
+      
     >
       <div class="flex-auto"></div>
       <h2 class="flex-auto text-3xl sm:text-4xl lg:text-5xl font-bold">
@@ -306,31 +303,17 @@
             >AdMob</a
           >, which will cycle an ad banner between every 3 news headlines.
         </p>
+      </div> -->
+    <!-- newsapp carousel -->
+    <!-- <div
+        class="flex-auto flex sm:flex-none overflow-x-auto sm:overflow-x-hidden sm:justify-around gap-6 snap-x snap-mandatory before:shrink-0 before:w-[30vw] after:shrink-0 after:w-[30vw]"
+      >
+        <img class="h-80 sm:h-96 shrink-0 snap-center" src="src/assets/nahome.png" />
+        <img
+          class="h-80 sm:h-96 shrink-0 snap-center"
+          src="src/assets/nareadmore.png"
+        />
       </div>
-      <!-- newsapp carousel -->
-      <div class="flex-auto flex sm:flex-none overflow-x-auto sm:overflow-x-hidden sm:justify-around gap-6 snap-x snap-mandatory before:shrink-0 before:w-[30vw]  after:shrink-0 after:w-[30vw]">
-        <img class="h-80 shrink-0 snap-center" src="src/assets/nahome.png" />
-        <img class="h-80 shrink-0 snap-center" src="src/assets/nareadmore.png" />
-      </div>
-      <!-- <div class="flex-auto">
-        <h3 class="text-gradient text-xl sm:text-2xl lg:tex-3xl font-bold">
-          Swipe Through
-        </h3> -->
-
-        <!-- <div class="na-card-container h-80 mx-auto">
-          <div class="na-card-carousel">
-            <div class="card" id="1">
-              <img class="h-80" src="src/assets/nahome.png" />
-            </div>
-            <div class="card" id="2">
-              <img class="h-80" src="src/assets/nareadmore.png" />
-            </div>
-          </div>
-          <a href="#" class="visuallyhidden na-card-controller w-1/2"
-            >Carousel controller</a
-          >
-        </div> -->
-      <!-- </div> -->
       <div class="flex-auto flex items-center justify-center">
         <a
           href="https://newsapp-39cee.web.app/"
@@ -340,10 +323,10 @@
           >Check Out the Web Build!</a
         >
       </div>
-    </article>
+    </article> -->
 
     <!-- hire me -->
-    <section class="md:flex bg-periwinkle p-10 min-h-screen">
+    <section class="md:flex bg-periwinkle p-10 min-h-screen" id="contact">
       <div class="md:flex-1 my-auto">
         <img
           class="mx-auto animate-spin-slow w-1/2 max-w-sm mt-4"
@@ -353,7 +336,7 @@
       <div id="myDIV" class="mx-auto md:flex-1">
         <div class="max-w-sm mx-auto">
           <h2
-            class="text-4xl sm:text-5xl lg:text-6xl text-purple-haze text-gradient text-center py-10"
+            class="text-4xl sm:text-5xl lg:text-6xl text-purple-haze text-center py-10"
           >
             Hire Me
           </h2>
