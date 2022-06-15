@@ -1,16 +1,4 @@
 
-// // toggle hidden div
-// function myFunction() {
-//     var x = document.getElementById("myDIV");
-//     var y = document.getElementById("secondDIV");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//       y.style.display = "none";
-//     } else {
-//       x.style.display = "none";
-//       y.style.display = "block";
-//     }
-//   }
 
   // Burger menus
 document.addEventListener('DOMContentLoaded', function() {
@@ -61,11 +49,11 @@ document.addEventListener('DOMContentLoaded', function() {
 const cardsContainer = document.querySelector(".card-carousel");
 const cardsController = document.querySelector(".card-carousel + .card-controller")
 
-const nwCardsContainer = document.querySelector(".nw-card-carousel");
-const nwCardsController = document.querySelector(".nw-card-carousel + .nw-card-controller")
+const fwCardsContainer = document.querySelector(".fw-card-carousel");
+const fwCardsController = document.querySelector(".fw-card-carousel + .fw-card-controller")
 
-const naCardsContainer = document.querySelector(".na-card-carousel");
-const naCardsController = document.querySelector(".na-card-carousel + .na-card-controller")
+const waCardsContainer = document.querySelector(".wa-card-carousel");
+const waCardsController = document.querySelector(".wa-card-carousel + .wa-card-controller")
 
 class DraggingEvent {
   constructor(target = undefined) {
@@ -389,7 +377,7 @@ class CardCarousel extends DraggingEvent {
 
 const carousel = new CardCarousel(cardsContainer)
 
-const nwCarousel = new CardCarousel(nwCardsContainer)
+const fwCarousel = new CardCarousel(fwCardsContainer)
 
-// const naCarousel = new CardCarousel(naCardsContainer)
+const waCarousel = new CardCarousel(waCardsContainer)
 

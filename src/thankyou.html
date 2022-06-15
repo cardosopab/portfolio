@@ -11,30 +11,31 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body class="bg-purple-haze flex flex-col h-screen">
+  <body class="max-w-7xl lg:w-4/5 lg:mx-auto bg-periwinkle-crayola">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <!-- nav bar sm lg -->
-    <section class="flex-auto">
-      <nav
-        class="py-1 px-4 sm:py-6 sm:px-4 lg:py-6 lg:px-10 lg:text-lg bg-periwinkle flex items-center justify-between"
-      >
-        <div>
-          <a href="../index.html">
-            <img src="../src/assets/abs_open_logo.png" class="h-5 sm:h-8" />
-          </a>
-        </div>
-        <ul class="hidden sm:flex justify-end items-center">
-          <li>
-            <a
-              href="../index.html"
-              class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
-              >Home</a
-            >
-          </li>
-        </ul>
-      </nav>
-    </section>
-    <!-- hero -->
+    <header class="bg-purple-haze flex flex-col h-screen">
+      <section class="flex-auto">
+        <nav
+          class="py-1 px-4 sm:py-6 sm:px-4 lg:py-6 lg:px-10 lg:text-lg bg-periwinkle flex items-center justify-between"
+        >
+          <div>
+            <a href="../index.html">
+              <img src="../src/assets/abs_open_logo.png" class="h-5 sm:h-8" />
+            </a>
+          </div>
+          <ul class="hidden sm:flex justify-end items-center">
+            <li>
+              <a
+                href="../index.html"
+                class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
+                >Home</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <!-- hero -->
       <section class="flex-auto h-auto">
         <h1
           class="font-bold text-4xl sm:text-5xl lg:text-6xl text-center text-periwinkle"
@@ -43,30 +44,28 @@
         </h1>
       </section>
       <!-- section2 -->
-      <section class="flex-auto h-auto">
-        <div class="md:flex mx-auto items-center">
-          <!-- left -->
-          <div class="md:flex-1">
-            <div
-              class="wrapper justify-center flex text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
-            >
-              <ul class="dynamic-thankyou">
-                <li><span>I'll get back to you,</span></li>
-              </ul>
-              <ul class="dynamic-ASAP">
-                <li><span class="pl-2">ASAP!</span></li>
-              </ul>
-            </div>
-          </div>
-          <!-- right -->
-          <div class="md:flex-1">
-            <img
-              class="mx-auto animate-spin-slow w-1/2 sm:h-1/4"
-              src="../src/assets/pc_300_purp.png"
-            />
+      <section class="flex-auto sm:flex ">
+        <!-- left -->
+        <div class="flex-auto">
+          <div
+            class="wrapper justify-center flex text-xl sm:text-3xl md:text-4xl lg:text-5xl overflow-hidden sm:overflow-visible"
+          >
+            <ul class="dynamic-thankyou text-periwinkle">
+              <li><span>I'll get back to you,</span></li>
+            </ul>
+            <ul class="dynamic-ASAP">
+              <li><span class="pl-2">ASAP!</span></li>
+            </ul>
           </div>
         </div>
+        <!-- right -->
+        <div class="flex-auto mt-20 sm:mt-0">
+          <img
+            class="mx-auto animate-spin-slow w-1/3 sm:w-1/2"
+            src="../src/assets/pc_300_purp.png"
+          />
+        </div>
       </section>
-    <!-- </header> -->
+    </header>
   </body>
 </html>

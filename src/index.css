@@ -105,14 +105,14 @@
   opacity: 0;
   
 }
-.card-container, .nw-card-container, .na-card-container {
+.card-container, .fw-card-container, .wa-card-container {
   /* overflow: hidden;  */
   /* padding: 20px; */
   /* margin-bottom: 1em; */
   /* background: rgba(0,0,0,.1) */
 }
 
-.card-carousel, .nw-card-carousel, .na-card-carousel {
+.card-carousel, .fw-card-carousel, .wa-card-carousel {
   --card-width: 80%;
   --card-max-width: 280px;
   --card-max-height:320px;
@@ -128,16 +128,16 @@
 }
 
 @media screen and (max-width: 640px) {
-  .card-carousel, .nw-card-carousel, .na-card-carousel {
+  .card-carousel, .fw-card-carousel, .wa-card-carousel {
     margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
   }
 }
 
-.card-carousel.smooth-return, .nw-card-carousel.smooth-return, .na-card-carousel.smooth-return {
+.card-carousel.smooth-return, .fw-card-carousel.smooth-return, .wa-card-carousel.smooth-return {
   transition: all .2s ease;
 }
 
-.card-carousel .card, .nw-card-carousel .card, .na-card-carousel .card {
+.card-carousel .card, .fw-card-carousel .card, .wa-card-carousel .card {
   width: var(--card-width); max-width: var(--card-max-width);
   text-align: center;
   /* padding: 1em; */
