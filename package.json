@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "deploy": "firebase deploy --only hosting:cardosopab"
+    "deploy": "firebase deploy --only hosting:cardosopab",
+    "deployDev":  "firebase deploy --only hosting:cardosopabdev"
+    
   },
   "license": "MIT",
   "devDependencies": {
