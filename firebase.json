@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "site": "cardosopab",
+    "site": "cardosopabdev",
     "public": "dist",
     "ignore": [
       "firebase.json",
