@@ -105,14 +105,14 @@
   opacity: 0;
   
 }
-.card-container, .fw-card-container, .wa-card-container {
+.card-container, .fw-card-container, .wa-card-container , .a-card-container{
   /* overflow: hidden;  */
   /* padding: 20px; */
   /* margin-bottom: 1em; */
   /* background: rgba(0,0,0,.1) */
 }
 
-.card-carousel, .fw-card-carousel, .wa-card-carousel {
+.card-carousel, .fw-card-carousel, .wa-card-carousel, .a-card-carousel {
   --card-width: 80%;
   --card-max-width: 280px;
   --card-max-height:320px;
@@ -128,16 +128,16 @@
 }
 
 @media screen and (max-width: 640px) {
-  .card-carousel, .fw-card-carousel, .wa-card-carousel {
+  .card-carousel, .fw-card-carousel, .wa-card-carousel, .a-card-container {
     margin-left: calc((100vw - var(--carousel-min-width) - 40px) / 2)
   }
 }
 
-.card-carousel.smooth-return, .fw-card-carousel.smooth-return, .wa-card-carousel.smooth-return {
+.card-carousel.smooth-return, .fw-card-carousel.smooth-return, .wa-card-carousel.smooth-return, .a-card-container.smooth-return {
   transition: all .2s ease;
 }
 
-.card-carousel .card, .fw-card-carousel .card, .wa-card-carousel .card {
+.card-carousel .card, .fw-card-carousel .card, .wa-card-carousel .card, .a-card-container .card {
   width: var(--card-width); max-width: var(--card-max-width);
   text-align: center;
   /* padding: 1em; */
