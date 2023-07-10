@@ -8,7 +8,7 @@ function NavBar() {
             <ul class="flex justify-end items-center">
                 <li>
                     <a href="/PabloCardoso.pdf" target="_blank" title="Resume"
-                        class="text-purple-haze p-2 lg:p-10">Resume</a>
+                        class="text-purple-haze">Resume</a>
                 </li>
                 <li>
                     <a href="#projects" class="text-purple-haze p-2 lg:p-10">Projects</a>

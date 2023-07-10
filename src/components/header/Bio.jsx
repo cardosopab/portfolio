@@ -4,18 +4,18 @@ function Bio() {
             {/* // <!-- left  --> */}
             <div class="flex-auto flex flex-col sm:w-1/2">
                 <h2 class="flex-auto py-2 text-periwinkle text-center text-3xl sm:text-4xl lg:text-5xl">
-                    My name is Pablo, <br />I'm a front-end developer.
+                    My name is Pablo, <br />I'm a Front-End Developer.
                 </h2>
                 <h4 class="flex-auto p-2 text-periwinkle text-center sm:text-xl lg:text-2xl">
                     <i class="fa-solid fa-toolbox text-xl sm:text-2xl lg:text-3xl"></i> <a href="https://flutter.dev/" target="_blank" class="text-periwinkle  font-bold underline"
                         title="https://flutter.dev/">
-                        flutter</a>, <a href="https://dart.dev/" target="_blank" class="text-periwinkle  font-bold underline"
+                        Flutter</a>, <a href="https://dart.dev/" target="_blank" class="text-periwinkle  font-bold underline"
                             title="https://dart.dev/">
-                        dart</a>, <a href="https://www.python.org/" target="_blank" class="text-periwinkle  font-bold underline"
-                            title="https://www.python.org/">
-                        python</a>, <a href="https://www.ecma-international.org/" target="_blank" class="text-periwinkle  font-bold underline"
+                        Dart</a>, <a href="https://www.ecma-international.org/" target="_blank" class="text-periwinkle  font-bold underline"
                             title="https://www.ecma-international.org/">
-                        javascript</a>
+                        JavaScript</a>, <a href="https://www.python.org/" target="_blank" class="text-periwinkle  font-bold underline"
+                            title="https://www.python.org/">
+                        Python</a>
                 </h4>
                 <h3 class="flex-auto p-2 text-periwinkle text-center text-xl sm:text-2xl lg:text-3xl">
                     Let's build something great, together!
