@@ -1,4 +1,25 @@
+import { createSignal, onMount } from 'solid-js';
 function Bio() {
+    const [imageUrl, setImageUrl] = createSignal("assets/ascii-group.png");
+
+
+
+    onMount(() => {
+        const handleResize = () => {
+            window.innerWidth < 640 ? setImageUrl("assets/ascii-group.png") :
+                setImageUrl("assets/tall-ascii-group.png");
+        };
+
+        handleResize(); // Set initial value
+
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize); 
+            console.log(imageUrl())
+            console.log(window.innerWidth)
+        };
+    });
+
     return (
         <div class="flex-auto flex flex-col sm:flex-row px-4 md:px-6 lg:px-10">
             {/* // <!-- left  --> */}
@@ -22,9 +43,11 @@ function Bio() {
                 </h3>
             </div>
             {/* //   <!-- right --> */}
+
             <div class="flex-auto flex flex-col sm:w-1/2">
-                <img class="mx-auto my-auto w-1/2" src="assets/flutter-ascii-transparent.png" alt="Flutter ASCII Logo" />
+                <img class="mx-auto my-auto w-1/2" src={imageUrl()} alt="ASCII" />
             </div>
+
         </div>
     )
 }
