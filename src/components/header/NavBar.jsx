@@ -3,7 +3,7 @@ function NavBar() {
         <nav
             class="px-4 md:px-6 lg:px-10 py-3 text-sm sm:py-6 md:text-base lg:py-6 lg:text-lg bg-periwinkle flex items-center justify-between">
             <div>
-                <img src="assets/abs_open_logo.png" class="h-5 sm:h-8" alt="Pablo Cardoso Logo" />
+                <img src="assets/pc_logo.svg" class="h-5 sm:h-8" alt="Pablo Cardoso Logo" />
             </div>
             <ul class="flex justify-end items-center">
                 <li>
