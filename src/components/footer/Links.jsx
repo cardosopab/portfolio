@@ -4,13 +4,13 @@ export default function Links() {
             {/* <!-- Github --> */}
             <div class="mb-6 w-6">
                 <a href="https://github.com/cardosopab" title="Github Profile" target="_blank">
-                    <img src="assets/github.svg" alt="Github Logo" />
+                    <img src="assets/svg/github.svg" alt="Github Logo" />
                 </a>
             </div>
             {/* <!-- LinkedIn --> */}
             <div class="mb-6 w-6">
                 <a href="https://www.linkedin.com/in/pablo-cardoso-48b226240/" title="LinkedIn Profile" target="_blank">
-                    <img src="assets/linkedin.svg" alt="LinkedIn Logo" />
+                    <img src="assets/svg/linkedin.svg" alt="LinkedIn Logo" />
                 </a>
             </div>
             {/* freeCodeCamp */}
@@ -22,7 +22,7 @@ export default function Links() {
             {/* <!-- UpWork --> */}
             <div class="mb-6 w-6">
                 <a href="https://www.upwork.com/freelancers/~0132e42b63c5ca2ce7" title="UpWork Profile" target="_blank">
-                    <img src="assets/upwork.svg" alt="UpWork Logo" />
+                    <img src="assets/svg/upwork.svg" alt="UpWork Logo" />
                 </a>
             </div>
             {/* <!-- Resume --> */}

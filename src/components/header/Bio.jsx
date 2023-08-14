@@ -1,20 +1,20 @@
 import { createSignal, onMount } from 'solid-js';
 function Bio() {
-    const [imageUrl, setImageUrl] = createSignal("assets/ascii-group.png");
+    const [imageUrl, setImageUrl] = createSignal("assets/webp/ascii-group.webp");
 
 
 
     onMount(() => {
         const handleResize = () => {
             window.innerWidth < 640 ? setImageUrl("assets/ascii-group.png") :
-                setImageUrl("assets/tall-ascii-group.png");
+                setImageUrl("assets/webp/tall-ascii-group.webp");
         };
 
         handleResize(); // Set initial value
 
         window.addEventListener('resize', handleResize);
         return () => {
-            window.removeEventListener('resize', handleResize); 
+            window.removeEventListener('resize', handleResize);
             console.log(imageUrl())
             console.log(window.innerWidth)
         };

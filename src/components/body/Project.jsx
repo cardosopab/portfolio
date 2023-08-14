@@ -31,6 +31,7 @@ export default function Project(props) {
               src={project.images[0]}
               class='w-80 sm:w-60 md:w-80 lg:w-96 mx-auto my-10 cursor-pointer'
               alt={project.name}
+              loading="lazy"
               onClick={() => openModal(project.images[0])}
             />
             <div class='flex flex-col w-80 sm:w-60 md:w-80 lg:w-96 mx-auto'>

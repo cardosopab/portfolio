@@ -4,7 +4,7 @@
         "name": "Aéro",
         "paragraph": "Utilized the following packages, <a href='https://pub.dev/packages/geolocator' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/geolocator'>geolocator</a> to request the user's location, <a href='https://pub.dev/packages/mapbox_gl' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/mapbox_gl'>mapbox_gl</a> for the cycling route, <a href='https://pub.dev/packages/flutter_riverpod' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/flutter_riverpod'>flutter_riverpod</a> as the state management, <a href='https://pub.dev/packages/mixpanel_flutter' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/mixpanel_flutter'>mixpanel_flutter</a> as the analytics, and <a href='https://pub.dev/packages/shared_preferences' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/shared_preferences'>shared_preferences</a> for device storage. I was able to create a cycling PWA that prioritizes safety for the user. Then deployed it to my client's <a href='https://firebase.google.com/docs/hosting/' target='_blank' class='text-light-red font-bold underline' title='https://firebase.google.com/docs/hosting/'>firebase_hosting</a>.",
         "images": [
-            "assets/aero_ad.png"
+            "assets/webp/aero_ad.webp"
         ],
         "alt": "Aéro App Images",
         "github": "",
@@ -17,7 +17,7 @@
         "name": "Wizard Shop",
         "paragraph": "Utilized HTML, CSS, JavaScript, and <a href='https://fontawesome.com' target='_blank' class='text-light-red font-bold underline' title='https://fontawesome.com/'>Font Awesome</a> icons to create a unique demo e-commerce shop, and shopping cart.",
         "images": [
-            "assets/wizard_shop_ad.png"
+            "assets/webp/wizard_shop_ad.webp"
         ],
         "alt": "Wizard Shop Website Image",
         "github": "https://github.com/cardosopab/shop",
@@ -29,7 +29,7 @@
         "name": "Breezy Checks",
         "paragraph": "Utilized the following packages, <a href='https://pub.dev/packages/flutter_riverpod' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/flutter_riverpod'>flutter_riverpod</a> as the state management, <a href='https://pub.dev/packages/uuid' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/uuid'>uuid</a> to create IDs for each check, <a href='https://pub.dev/packages/intl' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/intl'>intl</a> to help with the date formating, <a href='https://pub.dev/packages/json_annotation' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/json_annotation'>json_annotation</a> / <a href='https://pub.dev/packages/json_serializable' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/json_serializable'>json_serializable</a> to create models, <a href='https://pub.dev/packages/shared_preferences' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/shared_preferences'>shared_preferences</a> for device storage, and <a href='https://pub.dev/packages/flutter_native_splash' target='_blank' class='text-light-red font-bold underline' title='https://pub.dev/packages/flutter_native_splash'>flutter_native_splash</a> for the splash screen.",
         "images": [
-            "assets/breezy_checks_ad.png"
+            "assets/webp/breezy_checks_ad.webp"
         ],
         "alt": "Breezy Checks App Image",
         "github": "https://github.com/cardosopab/breezy_checks",
@@ -42,7 +42,7 @@
         "name": "Portfolio",
         "paragraph": "Utilized HTML, CSS, <a href='https://www.solidjs.com/' target='_blank' class='text-light-red font-bold underline' title='https://www.solidjs.com/'>Solid JS</a>, and <a href='https://www.tailwindcss.com/' target='_blank' class='text-light-red font-bold underline' title='https://www.tailwindcss.com/'>Tailwind CSS</a> to make reusable components that render my portfolio. Along with signals that will help the specific component re-render, instead of the whole DOM.",
         "images": [
-            "assets/portfolio_ad.png"
+            "assets/webp/portfolio_ad.webp"
         ],
         "alt": "Personal Portfolio Website Image",
         "github": "https://github.com/cardosopab/portfolio",
