@@ -1,25 +1,5 @@
 import { createSignal, onMount } from 'solid-js';
 function Bio() {
-    const [imageUrl, setImageUrl] = createSignal("assets/webp/ascii-group.webp");
-
-
-
-    onMount(() => {
-        const handleResize = () => {
-            window.innerWidth < 640 ? setImageUrl("assets/ascii-group.png") :
-                setImageUrl("assets/webp/tall-ascii-group.webp");
-        };
-
-        handleResize(); // Set initial value
-
-        window.addEventListener('resize', handleResize);
-        return () => {
-            window.removeEventListener('resize', handleResize);
-            console.log(imageUrl())
-            console.log(window.innerWidth)
-        };
-    });
-
     return (
         <div class="flex-auto flex flex-col sm:flex-row px-4 md:px-6 lg:px-10">
             {/* // <!-- left  --> */}
@@ -45,7 +25,8 @@ function Bio() {
             {/* //   <!-- right --> */}
 
             <div class="flex-auto flex flex-col sm:w-1/2">
-                <img class="mx-auto my-auto w-1/2" src={imageUrl()} alt="ASCII" />
+                <img class="mx-auto my-auto w-1/4 sm:w-1/2" src="assets/webp/flutter-ascii.webp" alt="Flutter Ascii Art" />
+                <img class="mx-auto my-auto w-1/4 sm:w-1/2" src="assets/webp/react-ascii.webp" alt="React Ascii Art" />
             </div>
 
         </div>
