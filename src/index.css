@@ -25,7 +25,7 @@ button:hover svg {
   top: 0;
   right: 0;
   margin: min(5vh, 5vw);
-  background-color: #FC6D6D;
+  background-color: #005193;
   border-radius: 50%;
   padding: min(1vh, 1vw);
   font-size: 2rem;
@@ -33,7 +33,7 @@ button:hover svg {
 
 .dynamic-ASAP li {
   list-style: none;
-  color: #FC6D6D;
+  color: #005193;
   font-weight: 700;
   position: relative;
   top: 0;
@@ -45,8 +45,8 @@ button:hover svg {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #E9D5FA;
-  border-left: 0.125rem solid #FC6D6D;
+  background: #eaf7fb;
+  border-left: 0.125rem solid #005193;
   animation: typing 3s steps(9) infinite;
 }
 

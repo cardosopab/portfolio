@@ -30,20 +30,23 @@ export default function ContactForm() {
                     onsubmit={handleSubmit}
                 >
                     <div>
-                        <label class="text-purple-haze block mb-6 font-bold">Name</label>
-                        <input class="w-full border bg-purple-haze p-4" name="entry.2005620554" />
+                        <label for="name" class="text-text block mb-6 font-bold">Name
+                            <input id="name" class="w-full border bg-background p-4" name="entry.2005620554" />
+                        </label>
                     </div>
                     <div>
-                        <label class="text-purple-haze block my-6 font-bold">Email</label>
-                        <input class="w-full border bg-purple-haze p-4" name="entry.1045781291" />
+                        <label for="email" class="text-text block my-6 font-bold">Email
+                            <input id="email" class="w-full border bg-background p-4" name="entry.1045781291" />
+                        </label>
                     </div>
                     <div>
-                        <label class="text-purple-haze block my-6 font-bold">Message</label>
-                        <textarea class="w-full border bg-purple-haze p-4" name="entry.839337160"></textarea>
+                        <label for="message" class="text-text block my-6 font-bold">Message
+                            <textarea id="message" class="w-full border bg-background p-4" name="entry.839337160"></textarea>
+                        </label>
                     </div>
                     <div class="py-4">
                         <button
-                            class="p-2 bg-light-red hover:bg-transparent hover:border hover:text-light-red border-light-red rounded text-periwinkle font-bold"
+                            class="p-1 sm:p-2 bg-primary border border-secondary  rounded text-secondary font-bold hover:drop-shadow-xl"
                         >
                             Send it!
                         </button>
