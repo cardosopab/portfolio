@@ -26,7 +26,7 @@ function Bio() {
             </div>
             {/* //   <!-- right --> */}
 
-            <div class="flex-auto flex flex-col sm:w-1/2">
+            <div class="flex-auto flex sm:flex-col sm:w-1/2">
                 <img class="mx-auto my-auto w-1/4 sm:w-1/2" src="assets/webp/flutter-ascii.webp" alt="Flutter Ascii Art" />
                 <img class="mx-auto my-auto w-1/4 sm:w-1/2" src="assets/webp/react-ascii.webp" alt="React Ascii Art" />
             </div>
