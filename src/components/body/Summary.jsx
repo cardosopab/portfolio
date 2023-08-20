@@ -3,7 +3,7 @@ export default function Summary(props) {
         <>
 
             <div class="lg:text-lg mt-10">
-                <p class="text-periwinkle" innerHTML={props.paragraph}>
+                <p class="text-text" innerHTML={props.paragraph}>
                 </p>
             </div>
         </>
