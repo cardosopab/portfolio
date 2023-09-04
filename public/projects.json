@@ -7,7 +7,7 @@
             "assets/webp/aero_ad.webp",
             "assets/webp/aero_ad_modal.webp"
         ],
-        "alt": "Aéro App Images",
+        "alt": "Aéro App",
         "github": "",
         "live": "https://cardosopab-aero.web.app/",
         "link": "https://www.upwork.com/freelancers/~0132e42b63c5ca2ce7?p=1633653695480610816",
@@ -21,7 +21,7 @@
             "assets/webp/wizard_shop_ad.webp",
             "assets/webp/wizard_shop_ad_modal.webp"
         ],
-        "alt": "Wizard Shop Website Image",
+        "alt": "Wizard Shop",
         "github": "https://github.com/cardosopab/shop",
         "live": "https://cardosopab-shop.web.app/",
         "link": ""
@@ -34,7 +34,7 @@
             "assets/webp/breezy_checks_ad.webp",
             "assets/webp/breezy_checks_ad_modal.webp"
         ],
-        "alt": "Breezy Checks App Image",
+        "alt": "Breezy Checks App",
         "github": "https://github.com/cardosopab/breezy_checks",
         "live": "https://cardosopab-breezy-checks.web.app/",
         "link": "https://play.google.com/store/apps/details?id=com.cardosopab.breezy_checks",
@@ -48,7 +48,7 @@
             "assets/webp/portfolio_ad.webp",
             "assets/webp/portfolio_ad_modal.webp"
         ],
-        "alt": "Personal Portfolio Website Image",
+        "alt": "Personal Portfolio Website",
         "github": "https://github.com/cardosopab/portfolio",
         "live": "https://cardosopab.web.app/",
         "link": ""
