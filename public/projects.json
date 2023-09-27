@@ -14,16 +14,16 @@
         "text": "UpWork Page!"
     },
     {
-        "title": "https://cardosopab-shop.web.app/",
-        "name": "Wizard Shop",
-        "paragraph": "Utilized HTML, CSS, JavaScript, and <a href='https://fontawesome.com' target='_blank' class='text-primary font-bold underline' title='https://fontawesome.com/'>Font Awesome</a> icons to create a unique demo e-commerce shop, and shopping cart.",
+        "title": "https://bugtracker-cardosopab.web.app/",
+        "name": "Bug Tracker",
+        "paragraph": "Utilized <a href='https://vitejs.dev/' target='_blank' class='text-primary font-bold underline' title='https://vitejs.dev/'>Vite</a>, HTML, <a href='https://mui.com/' target='_blank' class='text-primary font-bold underline' title='https://mui.com/'>Material UI</a>, <a href='https://www.typescriptlang.org/' target='_blank' class='text-primary font-bold underline' title='https://www.typescriptlang.org/'>TypeScript</a>, <a href='https://react.dev/' target='_blank' class='text-primary font-bold underline' title='https://react.dev/'>React</a>, <a href='https://redux-toolkit.js.org/' target='_blank' class='text-primary font-bold underline' title='https://redux-toolkit.js.org/'>Redux Toolkit</a>, and <a href='https://reactrouter.com/' target='_blank' class='text-primary font-bold underline' title='https://reactrouter.com/'>React Router</a>. That builds a helpful system to create, read, update, and delete tickets from a Firebase Firestore database.",
         "images": [
-            "assets/webp/wizard_shop_ad.webp",
-            "assets/webp/wizard_shop_ad_modal.webp"
+            "assets/webp/bugtracker_ad.webp",
+            "assets/webp/bugtracker_ad_modal.webp"
         ],
-        "alt": "Wizard Shop",
-        "github": "https://github.com/cardosopab/shop",
-        "live": "https://cardosopab-shop.web.app/",
+        "alt": "Bug Tracker",
+        "github": "https://github.com/cardosopab/bugtracker",
+        "live": "https://bugtracker-cardosopab.web.app/",
         "link": ""
     },
     {
@@ -43,7 +43,7 @@
     {
         "title": "https://cardosopab.web.app/",
         "name": "Portfolio",
-        "paragraph": "Utilized HTML, CSS, <a href='https://www.solidjs.com/' target='_blank' class='text-primary font-bold underline' title='https://www.solidjs.com/'>Solid JS</a>, and <a href='https://www.tailwindcss.com/' target='_blank' class='text-primary font-bold underline' title='https://www.tailwindcss.com/'>Tailwind CSS</a> to make reusable components that render my portfolio. Along with signals that will help the specific component re-render, instead of the whole DOM.",
+        "paragraph": "Utilized HTML, CSS, JavaScript, <a href='https://www.solidjs.com/' target='_blank' class='text-primary font-bold underline' title='https://www.solidjs.com/'>Solid JS</a>, and <a href='https://www.tailwindcss.com/' target='_blank' class='text-primary font-bold underline' title='https://www.tailwindcss.com/'>Tailwind CSS</a> to make reusable components that render my portfolio. Along with signals that will help the specific component re-render, instead of the whole DOM.",
         "images": [
             "assets/webp/portfolio_ad.webp",
             "assets/webp/portfolio_ad_modal.webp"
