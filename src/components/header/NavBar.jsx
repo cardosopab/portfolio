@@ -7,7 +7,7 @@ function NavBar() {
             </div>
             <ul class="flex justify-end items-center">
                 <li>
-                    <a href="/PabloCardoso.pdf" target="_blank" title="Resume"
+                    <a href="/Pablo-Cardoso.pdf" target="_blank" title="Resume"
                         class="text-text hover:drop-shadow-xl">Resume</a>
                 </li>
                 <li>

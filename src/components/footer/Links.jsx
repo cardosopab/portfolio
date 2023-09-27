@@ -24,7 +24,7 @@ export default function Links() {
             <div className="flex justify-evenly mb-6">
 
                 {/* <!-- Resume --> */}
-                <a href="PabloCardoso.pdf" target="_blank" title="resume" class="underline text-text">resume</a>
+                <a href="Pablo-Cardoso.pdf" target="_blank" title="resume" class="underline text-text">resume</a>
                 {/* <!-- Email --> */}
                 <a href="mailto:cardosopab@gmail.com" title="mailto:cardosopab@gmail.com"
                     class="underline text-text">cardosopab@gmail.com</a>
