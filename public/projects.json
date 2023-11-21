@@ -2,7 +2,33 @@
     {
         "title": "https://cardosopab-aero.web.app/",
         "name": "Aéro",
-        "paragraph": "Utilized the following packages, <a href='https://pub.dev/packages/geolocator' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/geolocator'>geolocator</a> to request the user's location, <a href='https://pub.dev/packages/mapbox_gl' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/mapbox_gl'>mapbox_gl</a> for the cycling route, <a href='https://pub.dev/packages/flutter_riverpod' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/flutter_riverpod'>flutter_riverpod</a> as the state management, <a href='https://pub.dev/packages/mixpanel_flutter' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/mixpanel_flutter'>mixpanel_flutter</a> as the analytics, and <a href='https://pub.dev/packages/shared_preferences' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/shared_preferences'>shared_preferences</a> for device storage. I was able to create a cycling PWA that prioritizes safety for the user. Then deployed it to my client's <a href='https://firebase.google.com/docs/hosting/' target='_blank' class='text-primary font-bold underline' title='https://firebase.google.com/docs/hosting/'>firebase_hosting</a>.",
+        "bulletpoints": [
+            "Partnered with a client to develop a progressive web app tailored to cyclist safety.",
+            "Integrated the MapBox API, enabling the creation of a user interface for a turn-by-turn navigation.",
+            "Orchestrated the successful deployment of the progressive web app using Firebase Hosting, ensuring high availability and efficient content delivery."
+        ],
+        "stack": [
+            {
+                "name": "Flutter",
+                "url": "https://flutter.dev"
+            },
+            {
+                "name": "Riverpod",
+                "url": "https://riverpod.dev/"
+            },
+            {
+                "name": "Mapbox-API",
+                "url": "https://www.mapbox.com/"
+            },
+            {
+                "name": "Mixpanel-Analytics",
+                "url": "https://mixpanel.com/"
+            },
+            {
+                "name": "Firebase-Hosting",
+                "url": "https://firebase.google.com/docs/hosting"
+            }
+        ],
         "images": [
             "assets/webp/aero_ad.webp",
             "assets/webp/aero_ad_modal.webp"
@@ -16,7 +42,41 @@
     {
         "title": "https://bugtracker-cardosopab.web.app/",
         "name": "Bug Tracker",
-        "paragraph": "Utilized <a href='https://vitejs.dev/' target='_blank' class='text-primary font-bold underline' title='https://vitejs.dev/'>Vite</a>, HTML, <a href='https://mui.com/' target='_blank' class='text-primary font-bold underline' title='https://mui.com/'>Material UI</a>, <a href='https://www.typescriptlang.org/' target='_blank' class='text-primary font-bold underline' title='https://www.typescriptlang.org/'>TypeScript</a>, <a href='https://react.dev/' target='_blank' class='text-primary font-bold underline' title='https://react.dev/'>React</a>, <a href='https://redux-toolkit.js.org/' target='_blank' class='text-primary font-bold underline' title='https://redux-toolkit.js.org/'>Redux Toolkit</a>, and <a href='https://reactrouter.com/' target='_blank' class='text-primary font-bold underline' title='https://reactrouter.com/'>React Router</a>. That builds a helpful system to create, read, update, and delete tickets from a Firebase Firestore database.",
+        "bulletpoints": [
+            "Designed and implemented a comprehensive system that handles all CRUD (Create, Read, Update, Delete) operations for tickets, enhancing data management and user interactions.",
+            "Successfully integrated Firebase Firestore as the database, ensuring real-time data sync and reliability.",
+            "Demonstrated proficiency in TypeScript, enhancing code quality and type safety throughout the project, leading to fewer errors and a more maintainable codebase."
+        ],
+        "stack": [
+            {
+                "name": "Vite",
+                "url": "https://vitejs.dev/"
+            },
+            {
+                "name": "React",
+                "url": "https://react.dev/"
+            },
+            {
+                "name": "TypeScript",
+                "url": "https://www.typescriptlang.org/"
+            },
+            {
+                "name": "ReactRouter",
+                "url": "https://reactrouter.com/"
+            },
+            {
+                "name": "ReduxToolkit",
+                "url": "https://redux-toolkit.js.org/"
+            },
+            {
+                "name": "MaterialUI",
+                "url": "https://mui.com/"
+            },
+            {
+                "name": "Firebase-Firestore",
+                "url": "https://firebase.google.com/docs/firestore"
+            }
+        ],
         "images": [
             "assets/webp/bugtracker_ad.webp",
             "assets/webp/bugtracker_ad_modal.webp"
@@ -29,7 +89,21 @@
     {
         "title": "https://cardosopab-breezy-checks.web.app/",
         "name": "Breezy Checks",
-        "paragraph": "Utilized the following packages, <a href='https://pub.dev/packages/flutter_riverpod' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/flutter_riverpod'>flutter_riverpod</a> as the state management, <a href='https://pub.dev/packages/uuid' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/uuid'>uuid</a> to create IDs for each check, <a href='https://pub.dev/packages/intl' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/intl'>intl</a> to help with the date formating, <a href='https://pub.dev/packages/json_annotation' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/json_annotation'>json_annotation</a>, and <a href='https://pub.dev/packages/json_serializable' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/json_serializable'>json_serializable</a> to create models, <a href='https://pub.dev/packages/shared_preferences' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/shared_preferences'>shared_preferences</a> for device storage, and <a href='https://pub.dev/packages/flutter_native_splash' target='_blank' class='text-primary font-bold underline' title='https://pub.dev/packages/flutter_native_splash'>flutter_native_splash</a> for the splash screen.",
+        "bulletpoints": [
+            "Independently published my debut mobile app on the Google Play Store, demonstrating initiative and the ability to see a project through to the end.",
+            "Leveraged the Flutter framework, to build a sophisticated checkbook register app, showcasing proficiency in mobile app development.",
+            "Utilized Riverpod, a state management library, to architect a robust and scalable app with efficient state management, ensuring data accuracy and responsiveness."
+        ],
+        "stack": [
+            {
+                "name": "Flutter",
+                "url": "https://flutter.dev"
+            },
+            {
+                "name": "Riverpod",
+                "url": "https://riverpod.dev/"
+            }
+        ],
         "images": [
             "assets/webp/breezy_checks_ad.webp",
             "assets/webp/breezy_checks_ad_modal.webp"
@@ -43,7 +117,24 @@
     {
         "title": "https://cardosopab.web.app/",
         "name": "Portfolio",
-        "paragraph": "Utilized HTML, CSS, JavaScript, <a href='https://www.solidjs.com/' target='_blank' class='text-primary font-bold underline' title='https://www.solidjs.com/'>Solid JS</a>, and <a href='https://www.tailwindcss.com/' target='_blank' class='text-primary font-bold underline' title='https://www.tailwindcss.com/'>Tailwind CSS</a> to make reusable components that render my portfolio. Along with signals that will help the specific component re-render, instead of the whole DOM.",
+        "bulletpoints": [
+            "Architected a dynamic portfolio structure, by leveraging tools to craft reusable components that efficiently render content.",
+            "Implemented advanced signal-based mechanisms, enabling targeted re-rendering of specific elements rather than refreshing the entire Document Object Model (DOM). This optimization enhances performance and responsiveness."
+        ],
+        "stack": [
+            {
+                "name": "Vite",
+                "url": "https://vitejs.dev/"
+            },
+            {
+                "name": "SolidJS",
+                "url": "https://www.solidjs.com/"
+            },
+            {
+                "name": "TailwindCSS",
+                "url": "https://www.tailwindcss.com/"
+            }
+        ],
         "images": [
             "assets/webp/portfolio_ad.webp",
             "assets/webp/portfolio_ad_modal.webp"
