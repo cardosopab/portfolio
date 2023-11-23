@@ -1,5 +1,52 @@
 [
     {
+        "title": "https://state-children-in-care-cardosopab.web.app/",
+        "name": "State Children in Care",
+        "bulletpoints": [
+            "Collaborated with a client to conceptualize and execute a dynamic portal facilitating seamless communication among case workers, judges, and parents/guardians.",
+            "Enabled efficient task management by implementing a feature allowing case workers and judges to add essential tasks (\"to-dos\") while empowering parents/guardians to upload necessary documents, ensuring a streamlined process.",
+            "Enhanced user experience by incorporating a robust system for locating local health providers, providing convenience and support for parents seeking essential resources within their community."
+        ],
+        "stack": [
+            {
+                "name": "Vite",
+                "url": "https://vitejs.dev/"
+            },
+            {
+                "name": "React",
+                "url": "https://react.dev/"
+            },
+            {
+                "name": "TypeScript",
+                "url": "https://www.typescriptlang.org/"
+            },
+            {
+                "name": "ReactRouter",
+                "url": "https://reactrouter.com/"
+            },
+            {
+                "name": "ReduxToolkit",
+                "url": "https://redux-toolkit.js.org/"
+            },
+            {
+                "name": "MaterialUI",
+                "url": "https://mui.com/"
+            },
+            {
+                "name": "Firebase-Firestore",
+                "url": "https://firebase.google.com/docs/firestore"
+            }
+        ],
+        "images": [
+            "assets/webp/casework_ad.webp",
+            "assets/webp/casework_ad_modal.webp"
+        ],
+        "alt": "State Children in Care",
+        "github": "",
+        "live": "https://state-children-in-care-cardosopab.web.app/",
+        "link": ""
+    },
+    {
         "title": "https://cardosopab-aero.web.app/",
         "name": "Aéro",
         "bulletpoints": [
@@ -113,35 +160,5 @@
         "live": "https://cardosopab-breezy-checks.web.app/",
         "link": "https://play.google.com/store/apps/details?id=com.cardosopab.breezy_checks",
         "text": "Play Store!"
-    },
-    {
-        "title": "https://cardosopab.web.app/",
-        "name": "Portfolio",
-        "bulletpoints": [
-            "Architected a dynamic portfolio structure, by leveraging tools to craft reusable components that efficiently render content.",
-            "Implemented advanced signal-based mechanisms, enabling targeted re-rendering of specific elements rather than refreshing the entire Document Object Model (DOM). This optimization enhances performance and responsiveness."
-        ],
-        "stack": [
-            {
-                "name": "Vite",
-                "url": "https://vitejs.dev/"
-            },
-            {
-                "name": "SolidJS",
-                "url": "https://www.solidjs.com/"
-            },
-            {
-                "name": "TailwindCSS",
-                "url": "https://www.tailwindcss.com/"
-            }
-        ],
-        "images": [
-            "assets/webp/portfolio_ad.webp",
-            "assets/webp/portfolio_ad_modal.webp"
-        ],
-        "alt": "Personal Portfolio Website",
-        "github": "https://github.com/cardosopab/portfolio",
-        "live": "https://cardosopab.web.app/",
-        "link": ""
     }
 ]
