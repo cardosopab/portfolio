@@ -91,7 +91,7 @@
         "name": "Bug Tracker",
         "bulletpoints": [
             "Designed and implemented a comprehensive system that handles all CRUD (Create, Read, Update, Delete) operations for tickets, enhancing data management and user interactions.",
-            "Successfully integrated Firebase Firestore as the database, ensuring real-time data sync and reliability.",
+            "Successfully migrated from an initial Firebase Firestore database to a MongoDB setup with Mongoose ODM in a Node.js and Express.js environment, embracing the MERN stack architecture.",
             "Demonstrated proficiency in TypeScript, enhancing code quality and type safety throughout the project, leading to fewer errors and a more maintainable codebase."
         ],
         "stack": [
@@ -120,8 +120,24 @@
                 "url": "https://mui.com/"
             },
             {
-                "name": "Firebase-Firestore",
-                "url": "https://firebase.google.com/docs/firestore"
+                "name": "Node.js",
+                "url": "https://nodejs.org/"
+            },
+            {
+                "name": "Express.js",
+                "url": "https://expressjs.com/"
+            },
+            {
+                "name": "MongoDB",
+                "url": "https://www.mongodb.com/"
+            },
+            {
+                "name": "Moongoose ODM",
+                "url": "https://mongoosejs.com/"
+            },
+            {
+                "name": "MERN stack",
+                "url": "https://www.mongodb.com/mern-stack"
             }
         ],
         "images": [
@@ -131,7 +147,8 @@
         "alt": "Bug Tracker",
         "github": "https://github.com/cardosopab/bugtracker",
         "live": "https://bugtracker-cardosopab.web.app/",
-        "link": ""
+        "link": "",
+        "status": "Work In Progress!"
     },
     {
         "title": "https://cardosopab-breezy-checks.web.app/",
