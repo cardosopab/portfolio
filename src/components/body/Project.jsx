@@ -8,9 +8,6 @@ export default function Project(props) {
   const [modalImage, setModalImage] = createSignal();
 
   function openModal(imageSrc) {
-    console.log("openModal");
-    console.log(imageSrc);
-    // Implement your modal open logic here using the image source (imageSrc)
     setShowModal(true);
     setModalImage(imageSrc);
   }
@@ -43,6 +40,7 @@ export default function Project(props) {
               <ButtonComponent
                 live={project.live}
                 link={project.link}
+                status={project.status}
                 github={project.github}
                 text={project.text}
               />
