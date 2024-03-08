@@ -11,24 +11,6 @@ function Bio() {
         <h3 class="flex-auto p-2 text-text text-center sm:text-xl lg:text-2xl">
           <i class="fa-solid fa-toolbox text-xl sm:text-2xl lg:text-3xl"></i>{" "}
           <a
-            href="https://flutter.dev/"
-            target="_blank"
-            class="text-primary  font-bold underline"
-            title="https://flutter.dev/"
-          >
-            Flutter
-          </a>
-          ,{" "}
-          <a
-            href="https://dart.dev/"
-            target="_blank"
-            class="text-primary  font-bold underline"
-            title="https://dart.dev/"
-          >
-            Dart
-          </a>
-          ,{" "}
-          <a
             href="https://react.dev/"
             target="_blank"
             class="text-primary  font-bold underline"
@@ -44,6 +26,24 @@ function Bio() {
             title="https://www.typescriptlang.org/"
           >
             TypeScript
+          </a>
+          ,{" "}
+          <a
+            href="https://flutter.dev/"
+            target="_blank"
+            class="text-primary  font-bold underline"
+            title="https://flutter.dev/"
+          >
+            Flutter
+          </a>
+          ,{" "}
+          <a
+            href="https://dart.dev/"
+            target="_blank"
+            class="text-primary  font-bold underline"
+            title="https://dart.dev/"
+          >
+            Dart
           </a>
           ,{" "}
           <a
